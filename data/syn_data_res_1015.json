@@ -1,0 +1,2401 @@
+{
+    "object_types": {
+        "Car": 10053,
+        "SpecialShapedVehicle": 305,
+        "EngineeringVehicle": 1739,
+        "Bus": 220,
+        "ObstructionBW": 323544,
+        "WarningPole": 71661,
+        "Van": 1010,
+        "MediumSizedCar": 1054,
+        "Truck": 340,
+        "BullBarrels": 4795,
+        "Bicycle": 49834,
+        "PickupTruck": 520,
+        "TriangleBrand": 800,
+        "ConeBucket": 83560
+    },
+    "object_ego_dis_object_type": {
+        "(0, 20)": {
+            "ObstructionBW": 15080,
+            "BullBarrels": 351,
+            "WarningPole": 7697,
+            "Bicycle": 1711,
+            "ConeBucket": 17372,
+            "Car": 1
+        },
+        "(20, 40)": {
+            "Car": 693,
+            "ObstructionBW": 13945,
+            "Van": 50,
+            "BullBarrels": 387,
+            "Bicycle": 1570,
+            "WarningPole": 9147,
+            "TriangleBrand": 31,
+            "ConeBucket": 13156,
+            "MediumSizedCar": 80,
+            "EngineeringVehicle": 110,
+            "SpecialShapedVehicle": 10,
+            "PickupTruck": 40,
+            "Bus": 10
+        },
+        "(40, 60)": {
+            "ObstructionBW": 12369,
+            "BullBarrels": 402,
+            "Bicycle": 3774,
+            "WarningPole": 11384,
+            "TriangleBrand": 138,
+            "ConeBucket": 11594,
+            "Car": 403,
+            "EngineeringVehicle": 30,
+            "PickupTruck": 10,
+            "SpecialShapedVehicle": 10,
+            "MediumSizedCar": 40,
+            "Van": 20
+        },
+        "(60, 80)": {
+            "ObstructionBW": 10529,
+            "BullBarrels": 487,
+            "Car": 1277,
+            "Bicycle": 4239,
+            "WarningPole": 9195,
+            "PickupTruck": 60,
+            "TriangleBrand": 383,
+            "ConeBucket": 10872,
+            "EngineeringVehicle": 210,
+            "Van": 110,
+            "MediumSizedCar": 100,
+            "Truck": 30,
+            "Bus": 10,
+            "SpecialShapedVehicle": 30
+        },
+        "(80,)": {
+            "SpecialShapedVehicle": 255,
+            "EngineeringVehicle": 1389,
+            "Bus": 200,
+            "ObstructionBW": 271621,
+            "WarningPole": 34238,
+            "MediumSizedCar": 834,
+            "Truck": 310,
+            "BullBarrels": 3168,
+            "Car": 7679,
+            "Van": 830,
+            "Bicycle": 38540,
+            "PickupTruck": 410,
+            "TriangleBrand": 248,
+            "ConeBucket": 30566
+        }
+    },
+    "object_ego_dis_count": {
+        "(0, 20)": 42212,
+        "(20, 40)": 39229,
+        "(40, 60)": 40174,
+        "(60, 80)": 37532,
+        "(80,)": 390288
+    },
+    "object_ego_dis_object_volume": {
+        "(0, 20)": {
+            "1.0": 11542,
+            "0.0": 30669,
+            "5.0": 1
+        },
+        "(20, 40)": {
+            "15.0": 174,
+            "1.0": 10980,
+            "35.0": 11,
+            "0.0": 27149,
+            "33.0": 5,
+            "36.0": 41,
+            "34.0": 13,
+            "3.0": 107,
+            "22.0": 56,
+            "43.0": 20,
+            "99.0": 30,
+            "55.0": 55,
+            "14.0": 55,
+            "53.0": 21,
+            "19.0": 20,
+            "92.0": 10,
+            "39.0": 10,
+            "23.0": 13,
+            "24.0": 6,
+            "18.0": 50,
+            "20.0": 72,
+            "10.0": 9,
+            "9.0": 41,
+            "120.0": 30,
+            "11.0": 20,
+            "16.0": 40,
+            "21.0": 33,
+            "13.0": 21,
+            "56.0": 25,
+            "17.0": 40,
+            "76.0": 2,
+            "74.0": 11,
+            "75.0": 3,
+            "73.0": 3,
+            "77.0": 1,
+            "28.0": 20,
+            "54.0": 6,
+            "57.0": 3,
+            "149.0": 10,
+            "5.0": 3,
+            "122.0": 10
+        },
+        "(40, 60)": {
+            "1.0": 11607,
+            "0.0": 26831,
+            "3.0": 1223,
+            "15.0": 110,
+            "99.0": 10,
+            "92.0": 10,
+            "23.0": 6,
+            "24.0": 4,
+            "11.0": 20,
+            "14.0": 20,
+            "19.0": 62,
+            "53.0": 10,
+            "13.0": 10,
+            "5.0": 13,
+            "55.0": 31,
+            "16.0": 50,
+            "39.0": 10,
+            "74.0": 20,
+            "9.0": 28,
+            "21.0": 20,
+            "56.0": 14,
+            "57.0": 5,
+            "17.0": 20,
+            "22.0": 10,
+            "34.0": 10,
+            "10.0": 2,
+            "20.0": 8,
+            "43.0": 10
+        },
+        "(60, 80)": {
+            "1.0": 11655,
+            "0.0": 23418,
+            "20.0": 146,
+            "15.0": 219,
+            "22.0": 90,
+            "3.0": 632,
+            "16.0": 111,
+            "55.0": 80,
+            "99.0": 64,
+            "36.0": 25,
+            "9.0": 118,
+            "19.0": 141,
+            "18.0": 93,
+            "96.0": 3,
+            "100.0": 3,
+            "98.0": 4,
+            "97.0": 2,
+            "95.0": 4,
+            "34.0": 90,
+            "14.0": 94,
+            "28.0": 20,
+            "17.0": 76,
+            "43.0": 40,
+            "53.0": 60,
+            "21.0": 84,
+            "92.0": 30,
+            "37.0": 30,
+            "13.0": 30,
+            "5.0": 23,
+            "30.0": 4,
+            "29.0": 2,
+            "31.0": 4,
+            "149.0": 10,
+            "11.0": 20,
+            "120.0": 40,
+            "35.0": 15,
+            "39.0": 30,
+            "74.0": 10,
+            "75.0": 3,
+            "76.0": 3,
+            "77.0": 4,
+            "10.0": 2
+        },
+        "(80,)": {
+            "39.0": 239,
+            "122.0": 141,
+            "149.0": 190,
+            "0.0": 74833,
+            "1.0": 300850,
+            "45.0": 28,
+            "41.0": 13,
+            "40.0": 31,
+            "44.0": 16,
+            "38.0": 12,
+            "15.0": 1945,
+            "16.0": 813,
+            "34.0": 603,
+            "53.0": 280,
+            "28.0": 216,
+            "14.0": 468,
+            "120.0": 260,
+            "3.0": 2698,
+            "56.0": 194,
+            "74.0": 230,
+            "19.0": 363,
+            "18.0": 584,
+            "55.0": 510,
+            "21.0": 428,
+            "11.0": 150,
+            "99.0": 364,
+            "37.0": 270,
+            "17.0": 453,
+            "20.0": 475,
+            "22.0": 717,
+            "9.0": 564,
+            "43.0": 270,
+            "5.0": 160,
+            "13.0": 188,
+            "92.0": 270,
+            "36.0": 164,
+            "24.0": 35,
+            "23.0": 48,
+            "59.0": 4,
+            "58.0": 3,
+            "57.0": 29,
+            "10.0": 36,
+            "129.0": 3,
+            "125.0": 11,
+            "128.0": 15,
+            "127.0": 10,
+            "124.0": 4,
+            "98.0": 2,
+            "96.0": 2,
+            "95.0": 1,
+            "97.0": 1,
+            "35.0": 33,
+            "31.0": 7,
+            "29.0": 4,
+            "105.0": 7,
+            "101.0": 3,
+            "102.0": 1,
+            "104.0": 5,
+            "103.0": 3,
+            "126.0": 4,
+            "123.0": 2,
+            "156.0": 2,
+            "151.0": 2,
+            "155.0": 1,
+            "153.0": 2,
+            "157.0": 3,
+            "77.0": 5,
+            "76.0": 3,
+            "75.0": 2,
+            "12.0": 2,
+            "30.0": 3
+        }
+    },
+    "object_rel_ori_static_object_type": {
+        "180.0": {
+            "ObstructionBW": 13375,
+            "WarningPole": 58,
+            "ConeBucket": 72
+        },
+        "55.0": {
+            "ObstructionBW": 5,
+            "WarningPole": 75,
+            "ConeBucket": 71
+        },
+        "0.0": {
+            "ObstructionBW": 6720,
+            "BullBarrels": 225,
+            "WarningPole": 3516,
+            "ConeBucket": 11319
+        },
+        "12.0": {
+            "ObstructionBW": 3584,
+            "BullBarrels": 55,
+            "WarningPole": 216,
+            "ConeBucket": 1162
+        },
+        "11.0": {
+            "ObstructionBW": 4279,
+            "WarningPole": 206,
+            "BullBarrels": 12,
+            "ConeBucket": 901
+        },
+        "10.0": {
+            "ObstructionBW": 4002,
+            "ConeBucket": 954,
+            "WarningPole": 133,
+            "BullBarrels": 5
+        },
+        "9.0": {
+            "ObstructionBW": 2460,
+            "BullBarrels": 102,
+            "WarningPole": 190,
+            "ConeBucket": 848
+        },
+        "8.0": {
+            "ObstructionBW": 3867,
+            "BullBarrels": 58,
+            "WarningPole": 170,
+            "ConeBucket": 819
+        },
+        "7.0": {
+            "ObstructionBW": 3449,
+            "BullBarrels": 73,
+            "ConeBucket": 821,
+            "WarningPole": 97
+        },
+        "6.0": {
+            "ObstructionBW": 3505,
+            "BullBarrels": 46,
+            "WarningPole": 147,
+            "ConeBucket": 1239
+        },
+        "5.0": {
+            "ObstructionBW": 4081,
+            "BullBarrels": 36,
+            "WarningPole": 201,
+            "ConeBucket": 1524
+        },
+        "4.0": {
+            "ObstructionBW": 4201,
+            "BullBarrels": 83,
+            "WarningPole": 611,
+            "ConeBucket": 1401
+        },
+        "3.0": {
+            "ObstructionBW": 4974,
+            "BullBarrels": 88,
+            "WarningPole": 810,
+            "ConeBucket": 1507
+        },
+        "2.0": {
+            "ObstructionBW": 6586,
+            "BullBarrels": 172,
+            "WarningPole": 711,
+            "ConeBucket": 1654
+        },
+        "1.0": {
+            "ObstructionBW": 6365,
+            "BullBarrels": 138,
+            "WarningPole": 1500,
+            "ConeBucket": 1876
+        },
+        "179.0": {
+            "ObstructionBW": 10920,
+            "WarningPole": 62,
+            "ConeBucket": 46
+        },
+        "57.0": {
+            "ObstructionBW": 6,
+            "WarningPole": 99,
+            "ConeBucket": 207
+        },
+        "14.0": {
+            "ObstructionBW": 2170,
+            "WarningPole": 109,
+            "ConeBucket": 961,
+            "BullBarrels": 77
+        },
+        "13.0": {
+            "ObstructionBW": 1954,
+            "ConeBucket": 1198,
+            "WarningPole": 128,
+            "BullBarrels": 15
+        },
+        "178.0": {
+            "ObstructionBW": 12202,
+            "WarningPole": 44,
+            "ConeBucket": 34
+        },
+        "56.0": {
+            "ObstructionBW": 8,
+            "WarningPole": 163,
+            "ConeBucket": 164
+        },
+        "181.0": {
+            "ObstructionBW": 25346,
+            "WarningPole": 48,
+            "ConeBucket": 21
+        },
+        "17.0": {
+            "WarningPole": 254,
+            "ObstructionBW": 570,
+            "ConeBucket": 1086,
+            "BullBarrels": 16
+        },
+        "54.0": {
+            "ObstructionBW": 3,
+            "WarningPole": 184,
+            "ConeBucket": 66
+        },
+        "177.0": {
+            "ObstructionBW": 5262,
+            "WarningPole": 93,
+            "ConeBucket": 85
+        },
+        "92.0": {
+            "ObstructionBW": 8311,
+            "WarningPole": 91,
+            "BullBarrels": 39,
+            "ConeBucket": 886
+        },
+        "15.0": {
+            "BullBarrels": 679,
+            "ObstructionBW": 722,
+            "WarningPole": 131,
+            "ConeBucket": 947
+        },
+        "89.0": {
+            "ObstructionBW": 13729,
+            "WarningPole": 1367,
+            "BullBarrels": 216,
+            "ConeBucket": 398
+        },
+        "175.0": {
+            "ObstructionBW": 14039,
+            "WarningPole": 71,
+            "ConeBucket": 17
+        },
+        "95.0": {
+            "ObstructionBW": 1784,
+            "WarningPole": 87,
+            "ConeBucket": 789
+        },
+        "174.0": {
+            "ObstructionBW": 1055,
+            "WarningPole": 49,
+            "ConeBucket": 5
+        },
+        "96.0": {
+            "ObstructionBW": 1403,
+            "WarningPole": 117,
+            "BullBarrels": 95,
+            "ConeBucket": 332
+        },
+        "80.0": {
+            "WarningPole": 2620,
+            "ObstructionBW": 596,
+            "ConeBucket": 752
+        },
+        "86.0": {
+            "WarningPole": 738,
+            "ObstructionBW": 5728,
+            "ConeBucket": 405
+        },
+        "76.0": {
+            "WarningPole": 1829,
+            "BullBarrels": 13,
+            "ObstructionBW": 557,
+            "ConeBucket": 370
+        },
+        "85.0": {
+            "WarningPole": 2440,
+            "ObstructionBW": 3359,
+            "ConeBucket": 167
+        },
+        "88.0": {
+            "WarningPole": 1350,
+            "BullBarrels": 213,
+            "ObstructionBW": 12320,
+            "ConeBucket": 657
+        },
+        "79.0": {
+            "WarningPole": 1094,
+            "ObstructionBW": 644,
+            "BullBarrels": 24,
+            "ConeBucket": 917
+        },
+        "84.0": {
+            "WarningPole": 4882,
+            "ObstructionBW": 1104,
+            "ConeBucket": 135
+        },
+        "75.0": {
+            "WarningPole": 2391,
+            "BullBarrels": 7,
+            "ObstructionBW": 202,
+            "ConeBucket": 72
+        },
+        "87.0": {
+            "WarningPole": 746,
+            "ObstructionBW": 17358,
+            "ConeBucket": 574,
+            "BullBarrels": 20
+        },
+        "77.0": {
+            "WarningPole": 708,
+            "ObstructionBW": 464,
+            "ConeBucket": 571
+        },
+        "83.0": {
+            "WarningPole": 5641,
+            "ObstructionBW": 961,
+            "BullBarrels": 190,
+            "ConeBucket": 98
+        },
+        "73.0": {
+            "WarningPole": 3571,
+            "ObstructionBW": 335,
+            "BullBarrels": 2,
+            "ConeBucket": 13
+        },
+        "74.0": {
+            "WarningPole": 3831,
+            "ObstructionBW": 433,
+            "BullBarrels": 1,
+            "ConeBucket": 24
+        },
+        "78.0": {
+            "WarningPole": 915,
+            "ObstructionBW": 620,
+            "ConeBucket": 262
+        },
+        "167.0": {
+            "WarningPole": 89,
+            "ObstructionBW": 500,
+            "ConeBucket": 172
+        },
+        "159.0": {
+            "WarningPole": 76,
+            "ObstructionBW": 87,
+            "ConeBucket": 34
+        },
+        "150.0": {
+            "WarningPole": 95,
+            "ObstructionBW": 42,
+            "ConeBucket": 213
+        },
+        "143.0": {
+            "WarningPole": 68,
+            "ObstructionBW": 71,
+            "ConeBucket": 265
+        },
+        "90.0": {
+            "WarningPole": 342,
+            "ObstructionBW": 9275,
+            "TriangleBrand": 440,
+            "BullBarrels": 1615,
+            "ConeBucket": 504
+        },
+        "38.0": {
+            "WarningPole": 85,
+            "ConeBucket": 531,
+            "ObstructionBW": 3
+        },
+        "32.0": {
+            "WarningPole": 110,
+            "ObstructionBW": 238,
+            "ConeBucket": 347,
+            "BullBarrels": 6
+        },
+        "147.0": {
+            "WarningPole": 101,
+            "ObstructionBW": 66,
+            "ConeBucket": 61
+        },
+        "110.0": {
+            "WarningPole": 105,
+            "ConeBucket": 50,
+            "BullBarrels": 4,
+            "ObstructionBW": 43
+        },
+        "162.0": {
+            "WarningPole": 93,
+            "ObstructionBW": 311,
+            "ConeBucket": 234
+        },
+        "123.0": {
+            "WarningPole": 70,
+            "ObstructionBW": 19
+        },
+        "127.0": {
+            "WarningPole": 65,
+            "ObstructionBW": 38,
+            "ConeBucket": 34
+        },
+        "52.0": {
+            "WarningPole": 110,
+            "ObstructionBW": 1,
+            "ConeBucket": 184
+        },
+        "183.0": {
+            "WarningPole": 59,
+            "ObstructionBW": 12286,
+            "ConeBucket": 151
+        },
+        "65.0": {
+            "WarningPole": 517,
+            "ConeBucket": 393,
+            "ObstructionBW": 1
+        },
+        "99.0": {
+            "WarningPole": 137,
+            "ObstructionBW": 572,
+            "ConeBucket": 369
+        },
+        "166.0": {
+            "WarningPole": 69,
+            "ObstructionBW": 870,
+            "ConeBucket": 252
+        },
+        "82.0": {
+            "WarningPole": 3962,
+            "ObstructionBW": 925,
+            "ConeBucket": 202
+        },
+        "44.0": {
+            "WarningPole": 98,
+            "ConeBucket": 158,
+            "ObstructionBW": 3
+        },
+        "134.0": {
+            "WarningPole": 100,
+            "ObstructionBW": 2,
+            "ConeBucket": 100
+        },
+        "40.0": {
+            "WarningPole": 141,
+            "ConeBucket": 250,
+            "ObstructionBW": 2
+        },
+        "111.0": {
+            "WarningPole": 101,
+            "ConeBucket": 40,
+            "ObstructionBW": 32
+        },
+        "105.0": {
+            "WarningPole": 138,
+            "ConeBucket": 43,
+            "BullBarrels": 6,
+            "ObstructionBW": 157
+        },
+        "131.0": {
+            "WarningPole": 67,
+            "ConeBucket": 35,
+            "ObstructionBW": 5
+        },
+        "37.0": {
+            "WarningPole": 91,
+            "ObstructionBW": 70,
+            "ConeBucket": 565,
+            "BullBarrels": 1
+        },
+        "30.0": {
+            "WarningPole": 120,
+            "ObstructionBW": 200,
+            "BullBarrels": 7,
+            "ConeBucket": 595
+        },
+        "43.0": {
+            "WarningPole": 81,
+            "ConeBucket": 156,
+            "ObstructionBW": 2
+        },
+        "64.0": {
+            "WarningPole": 382,
+            "ConeBucket": 161,
+            "ObstructionBW": 1
+        },
+        "97.0": {
+            "WarningPole": 110,
+            "ObstructionBW": 2010,
+            "ConeBucket": 123
+        },
+        "113.0": {
+            "WarningPole": 124,
+            "ConeBucket": 5,
+            "ObstructionBW": 19
+        },
+        "146.0": {
+            "WarningPole": 79,
+            "ObstructionBW": 91,
+            "ConeBucket": 81
+        },
+        "33.0": {
+            "WarningPole": 85,
+            "ObstructionBW": 241,
+            "BullBarrels": 7,
+            "ConeBucket": 464
+        },
+        "155.0": {
+            "WarningPole": 70,
+            "ObstructionBW": 39,
+            "ConeBucket": 58
+        },
+        "24.0": {
+            "WarningPole": 162,
+            "ObstructionBW": 187,
+            "BullBarrels": 2,
+            "ConeBucket": 575
+        },
+        "130.0": {
+            "WarningPole": 86,
+            "ConeBucket": 34,
+            "ObstructionBW": 25
+        },
+        "129.0": {
+            "WarningPole": 92,
+            "ConeBucket": 30,
+            "ObstructionBW": 17
+        },
+        "139.0": {
+            "WarningPole": 81,
+            "ConeBucket": 335
+        },
+        "169.0": {
+            "WarningPole": 63,
+            "ObstructionBW": 599,
+            "ConeBucket": 179
+        },
+        "171.0": {
+            "WarningPole": 68,
+            "ObstructionBW": 872
+        },
+        "124.0": {
+            "WarningPole": 73,
+            "ObstructionBW": 33
+        },
+        "51.0": {
+            "WarningPole": 112,
+            "ObstructionBW": 1,
+            "ConeBucket": 120
+        },
+        "163.0": {
+            "WarningPole": 87,
+            "ObstructionBW": 535,
+            "ConeBucket": 436
+        },
+        "94.0": {
+            "WarningPole": 91,
+            "ObstructionBW": 10853,
+            "ConeBucket": 1092,
+            "BullBarrels": 4
+        },
+        "115.0": {
+            "WarningPole": 150,
+            "ObstructionBW": 11,
+            "ConeBucket": 11
+        },
+        "103.0": {
+            "WarningPole": 123,
+            "ObstructionBW": 107,
+            "ConeBucket": 170
+        },
+        "135.0": {
+            "WarningPole": 96,
+            "ConeBucket": 83
+        },
+        "16.0": {
+            "WarningPole": 120,
+            "ObstructionBW": 593,
+            "ConeBucket": 884,
+            "BullBarrels": 19
+        },
+        "45.0": {
+            "WarningPole": 82,
+            "ConeBucket": 144,
+            "ObstructionBW": 2
+        },
+        "71.0": {
+            "WarningPole": 1748,
+            "ObstructionBW": 213,
+            "BullBarrels": 1,
+            "ConeBucket": 541
+        },
+        "81.0": {
+            "WarningPole": 1935,
+            "ObstructionBW": 674,
+            "ConeBucket": 355,
+            "BullBarrels": 8
+        },
+        "72.0": {
+            "WarningPole": 2340,
+            "ObstructionBW": 376,
+            "BullBarrels": 1,
+            "ConeBucket": 305
+        },
+        "93.0": {
+            "ObstructionBW": 13927,
+            "WarningPole": 122,
+            "ConeBucket": 675,
+            "BullBarrels": 3
+        },
+        "91.0": {
+            "ObstructionBW": 15623,
+            "WarningPole": 119,
+            "BullBarrels": 220,
+            "ConeBucket": 582
+        },
+        "182.0": {
+            "ObstructionBW": 5879,
+            "WarningPole": 57,
+            "ConeBucket": 18
+        },
+        "176.0": {
+            "ObstructionBW": 5065,
+            "WarningPole": 49,
+            "ConeBucket": 71
+        },
+        "184.0": {
+            "ObstructionBW": 3993,
+            "WarningPole": 74,
+            "ConeBucket": 246
+        },
+        "34.0": {
+            "ObstructionBW": 249,
+            "BullBarrels": 6,
+            "ConeBucket": 441,
+            "WarningPole": 91
+        },
+        "31.0": {
+            "ObstructionBW": 222,
+            "BullBarrels": 6,
+            "ConeBucket": 408,
+            "WarningPole": 88
+        },
+        "29.0": {
+            "ObstructionBW": 206,
+            "BullBarrels": 8,
+            "ConeBucket": 498,
+            "WarningPole": 118
+        },
+        "28.0": {
+            "ObstructionBW": 208,
+            "BullBarrels": 8,
+            "ConeBucket": 283,
+            "WarningPole": 72
+        },
+        "27.0": {
+            "ObstructionBW": 206,
+            "BullBarrels": 6,
+            "ConeBucket": 587,
+            "WarningPole": 100
+        },
+        "26.0": {
+            "ObstructionBW": 186,
+            "BullBarrels": 7,
+            "ConeBucket": 853,
+            "WarningPole": 115
+        },
+        "25.0": {
+            "ObstructionBW": 231,
+            "BullBarrels": 4,
+            "ConeBucket": 787,
+            "WarningPole": 105
+        },
+        "156.0": {
+            "ObstructionBW": 39,
+            "WarningPole": 130,
+            "ConeBucket": 174
+        },
+        "22.0": {
+            "ObstructionBW": 148,
+            "BullBarrels": 3,
+            "ConeBucket": 357,
+            "WarningPole": 114
+        },
+        "100.0": {
+            "ObstructionBW": 263,
+            "WarningPole": 64,
+            "ConeBucket": 332
+        },
+        "18.0": {
+            "ObstructionBW": 232,
+            "ConeBucket": 1188,
+            "WarningPole": 101,
+            "BullBarrels": 8
+        },
+        "19.0": {
+            "ObstructionBW": 167,
+            "BullBarrels": 3,
+            "ConeBucket": 737,
+            "WarningPole": 98
+        },
+        "20.0": {
+            "ObstructionBW": 165,
+            "BullBarrels": 4,
+            "ConeBucket": 446,
+            "WarningPole": 109
+        },
+        "21.0": {
+            "ObstructionBW": 142,
+            "ConeBucket": 374,
+            "WarningPole": 108,
+            "BullBarrels": 1
+        },
+        "23.0": {
+            "ObstructionBW": 159,
+            "BullBarrels": 5,
+            "ConeBucket": 450,
+            "WarningPole": 118
+        },
+        "154.0": {
+            "ObstructionBW": 41,
+            "WarningPole": 75,
+            "ConeBucket": 115
+        },
+        "62.0": {
+            "WarningPole": 375,
+            "ConeBucket": 78,
+            "ObstructionBW": 3
+        },
+        "164.0": {
+            "ObstructionBW": 686,
+            "WarningPole": 56,
+            "ConeBucket": 433
+        },
+        "69.0": {
+            "WarningPole": 529,
+            "ObstructionBW": 46,
+            "BullBarrels": 2,
+            "ConeBucket": 177
+        },
+        "148.0": {
+            "ObstructionBW": 47,
+            "WarningPole": 108,
+            "ConeBucket": 225
+        },
+        "157.0": {
+            "ObstructionBW": 45,
+            "WarningPole": 86,
+            "ConeBucket": 401
+        },
+        "68.0": {
+            "WarningPole": 467,
+            "ObstructionBW": 26,
+            "ConeBucket": 242
+        },
+        "149.0": {
+            "ObstructionBW": 36,
+            "WarningPole": 115,
+            "ConeBucket": 211
+        },
+        "158.0": {
+            "ObstructionBW": 121,
+            "WarningPole": 81,
+            "ConeBucket": 271
+        },
+        "36.0": {
+            "ObstructionBW": 165,
+            "BullBarrels": 4,
+            "ConeBucket": 391,
+            "WarningPole": 124
+        },
+        "35.0": {
+            "ObstructionBW": 240,
+            "BullBarrels": 5,
+            "ConeBucket": 444,
+            "WarningPole": 112
+        },
+        "144.0": {
+            "ObstructionBW": 95,
+            "WarningPole": 66,
+            "ConeBucket": 99
+        },
+        "153.0": {
+            "ObstructionBW": 38,
+            "WarningPole": 72,
+            "ConeBucket": 94
+        },
+        "67.0": {
+            "WarningPole": 342,
+            "ObstructionBW": 2,
+            "ConeBucket": 488
+        },
+        "151.0": {
+            "ObstructionBW": 34,
+            "WarningPole": 81,
+            "ConeBucket": 146
+        },
+        "160.0": {
+            "ObstructionBW": 240,
+            "WarningPole": 46,
+            "ConeBucket": 44
+        },
+        "101.0": {
+            "ObstructionBW": 725,
+            "ConeBucket": 356,
+            "WarningPole": 117
+        },
+        "145.0": {
+            "ObstructionBW": 107,
+            "WarningPole": 41,
+            "ConeBucket": 80
+        },
+        "102.0": {
+            "ObstructionBW": 253,
+            "ConeBucket": 321,
+            "WarningPole": 106
+        },
+        "152.0": {
+            "ObstructionBW": 29,
+            "WarningPole": 77,
+            "ConeBucket": 82
+        },
+        "161.0": {
+            "ObstructionBW": 332,
+            "WarningPole": 76,
+            "ConeBucket": 122
+        },
+        "104.0": {
+            "ConeBucket": 120,
+            "WarningPole": 60,
+            "BullBarrels": 3,
+            "ObstructionBW": 213
+        },
+        "42.0": {
+            "ConeBucket": 226,
+            "WarningPole": 106,
+            "ObstructionBW": 3
+        },
+        "41.0": {
+            "ConeBucket": 309,
+            "WarningPole": 96,
+            "ObstructionBW": 2
+        },
+        "106.0": {
+            "ConeBucket": 39,
+            "WarningPole": 75,
+            "ObstructionBW": 137
+        },
+        "39.0": {
+            "ConeBucket": 400,
+            "WarningPole": 101,
+            "ObstructionBW": 5
+        },
+        "47.0": {
+            "ConeBucket": 12,
+            "WarningPole": 136,
+            "ObstructionBW": 1
+        },
+        "46.0": {
+            "ConeBucket": 91,
+            "WarningPole": 146,
+            "ObstructionBW": 4
+        },
+        "107.0": {
+            "ConeBucket": 10,
+            "WarningPole": 103,
+            "ObstructionBW": 132
+        },
+        "173.0": {
+            "ObstructionBW": 707,
+            "WarningPole": 64,
+            "ConeBucket": 4
+        },
+        "168.0": {
+            "ObstructionBW": 510,
+            "WarningPole": 62,
+            "ConeBucket": 158
+        },
+        "170.0": {
+            "ObstructionBW": 622,
+            "WarningPole": 62,
+            "ConeBucket": 137
+        },
+        "165.0": {
+            "ObstructionBW": 644,
+            "WarningPole": 97,
+            "ConeBucket": 219
+        },
+        "172.0": {
+            "ObstructionBW": 1099,
+            "WarningPole": 65,
+            "ConeBucket": 1
+        },
+        "185.0": {
+            "WarningPole": 59,
+            "ObstructionBW": 1598,
+            "ConeBucket": 126
+        },
+        "112.0": {
+            "WarningPole": 135,
+            "BullBarrels": 95,
+            "ConeBucket": 38,
+            "ObstructionBW": 21
+        },
+        "98.0": {
+            "WarningPole": 126,
+            "ConeBucket": 329,
+            "ObstructionBW": 1341
+        },
+        "120.0": {
+            "WarningPole": 67,
+            "ObstructionBW": 17,
+            "ConeBucket": 31
+        },
+        "133.0": {
+            "WarningPole": 59,
+            "ObstructionBW": 6,
+            "ConeBucket": 108
+        },
+        "58.0": {
+            "WarningPole": 120,
+            "ConeBucket": 149,
+            "ObstructionBW": 4
+        },
+        "48.0": {
+            "WarningPole": 88,
+            "ObstructionBW": 1,
+            "ConeBucket": 8
+        },
+        "136.0": {
+            "WarningPole": 52,
+            "ConeBucket": 133
+        },
+        "128.0": {
+            "WarningPole": 88,
+            "ObstructionBW": 67,
+            "ConeBucket": 47
+        },
+        "119.0": {
+            "WarningPole": 62,
+            "ObstructionBW": 15,
+            "ConeBucket": 6
+        },
+        "132.0": {
+            "WarningPole": 89,
+            "ConeBucket": 80,
+            "ObstructionBW": 2
+        },
+        "114.0": {
+            "WarningPole": 92,
+            "ObstructionBW": 13,
+            "ConeBucket": 2
+        },
+        "70.0": {
+            "WarningPole": 510,
+            "ObstructionBW": 187,
+            "BullBarrels": 1,
+            "ConeBucket": 431
+        },
+        "126.0": {
+            "WarningPole": 63,
+            "ObstructionBW": 28,
+            "ConeBucket": 33
+        },
+        "125.0": {
+            "WarningPole": 73,
+            "ObstructionBW": 32,
+            "ConeBucket": 6
+        },
+        "186.0": {
+            "WarningPole": 60,
+            "ObstructionBW": 1509,
+            "ConeBucket": 107
+        },
+        "122.0": {
+            "WarningPole": 65,
+            "ObstructionBW": 10,
+            "ConeBucket": 18
+        },
+        "59.0": {
+            "WarningPole": 97,
+            "ObstructionBW": 3,
+            "ConeBucket": 175
+        },
+        "117.0": {
+            "WarningPole": 92,
+            "ObstructionBW": 14,
+            "ConeBucket": 19
+        },
+        "121.0": {
+            "WarningPole": 71,
+            "ObstructionBW": 17,
+            "ConeBucket": 25
+        },
+        "66.0": {
+            "WarningPole": 252,
+            "ConeBucket": 388,
+            "ObstructionBW": 1
+        },
+        "116.0": {
+            "WarningPole": 77,
+            "ConeBucket": 24,
+            "ObstructionBW": 12
+        },
+        "137.0": {
+            "WarningPole": 107,
+            "ConeBucket": 114
+        },
+        "118.0": {
+            "WarningPole": 80,
+            "ObstructionBW": 6,
+            "ConeBucket": 10
+        },
+        "63.0": {
+            "WarningPole": 179,
+            "ConeBucket": 91,
+            "ObstructionBW": 1
+        },
+        "238.0": {
+            "WarningPole": 40,
+            "ConeBucket": 6
+        },
+        "224.0": {
+            "WarningPole": 30,
+            "ConeBucket": 538
+        },
+        "50.0": {
+            "WarningPole": 77,
+            "ObstructionBW": 1,
+            "ConeBucket": 96
+        },
+        "192.0": {
+            "WarningPole": 42,
+            "ObstructionBW": 338,
+            "ConeBucket": 120
+        },
+        "209.0": {
+            "WarningPole": 50,
+            "ConeBucket": 300
+        },
+        "194.0": {
+            "WarningPole": 45,
+            "ConeBucket": 384,
+            "ObstructionBW": 34
+        },
+        "219.0": {
+            "WarningPole": 20,
+            "ConeBucket": 197
+        },
+        "222.0": {
+            "ConeBucket": 224,
+            "WarningPole": 30
+        },
+        "223.0": {
+            "ConeBucket": 318
+        },
+        "221.0": {
+            "ConeBucket": 257,
+            "WarningPole": 60
+        },
+        "228.0": {
+            "ConeBucket": 189,
+            "WarningPole": 40
+        },
+        "229.0": {
+            "ConeBucket": 86,
+            "WarningPole": 40
+        },
+        "227.0": {
+            "ConeBucket": 140,
+            "WarningPole": 20
+        },
+        "220.0": {
+            "ConeBucket": 191,
+            "WarningPole": 10
+        },
+        "225.0": {
+            "ConeBucket": 568,
+            "WarningPole": 10
+        },
+        "226.0": {
+            "ConeBucket": 103,
+            "WarningPole": 10
+        },
+        "270.0": {
+            "TriangleBrand": 360,
+            "ObstructionBW": 1
+        },
+        "213.0": {
+            "ConeBucket": 142,
+            "WarningPole": 20,
+            "ObstructionBW": 3
+        },
+        "212.0": {
+            "ConeBucket": 321,
+            "ObstructionBW": 3,
+            "WarningPole": 10
+        },
+        "211.0": {
+            "ConeBucket": 340,
+            "ObstructionBW": 2,
+            "WarningPole": 10
+        },
+        "200.0": {
+            "ConeBucket": 130,
+            "ObstructionBW": 3,
+            "WarningPole": 20
+        },
+        "208.0": {
+            "ConeBucket": 160,
+            "WarningPole": 20
+        },
+        "210.0": {
+            "ConeBucket": 220,
+            "WarningPole": 10
+        },
+        "188.0": {
+            "ObstructionBW": 663,
+            "ConeBucket": 35,
+            "WarningPole": 27
+        },
+        "187.0": {
+            "ObstructionBW": 1451,
+            "WarningPole": 39,
+            "ConeBucket": 85
+        },
+        "189.0": {
+            "ObstructionBW": 812,
+            "WarningPole": 33,
+            "ConeBucket": 151
+        },
+        "108.0": {
+            "BullBarrels": 6,
+            "ConeBucket": 24,
+            "WarningPole": 64,
+            "ObstructionBW": 76
+        },
+        "61.0": {
+            "ConeBucket": 152,
+            "WarningPole": 234
+        },
+        "60.0": {
+            "ConeBucket": 188,
+            "ObstructionBW": 1,
+            "WarningPole": 114
+        },
+        "49.0": {
+            "ObstructionBW": 2,
+            "WarningPole": 96,
+            "ConeBucket": 84
+        },
+        "53.0": {
+            "ObstructionBW": 3,
+            "WarningPole": 143,
+            "ConeBucket": 139
+        },
+        "242.0": {
+            "ConeBucket": 429,
+            "WarningPole": 50
+        },
+        "241.0": {
+            "ConeBucket": 514,
+            "WarningPole": 10
+        },
+        "240.0": {
+            "ConeBucket": 404,
+            "WarningPole": 40
+        },
+        "217.0": {
+            "ConeBucket": 446,
+            "WarningPole": 30
+        },
+        "216.0": {
+            "ConeBucket": 229,
+            "WarningPole": 30
+        },
+        "218.0": {
+            "ConeBucket": 243,
+            "WarningPole": 20
+        },
+        "109.0": {
+            "ConeBucket": 77,
+            "WarningPole": 107,
+            "BullBarrels": 6,
+            "ObstructionBW": 44
+        },
+        "195.0": {
+            "ConeBucket": 436,
+            "ObstructionBW": 5,
+            "WarningPole": 1
+        },
+        "193.0": {
+            "ConeBucket": 170,
+            "WarningPole": 13,
+            "ObstructionBW": 27
+        },
+        "201.0": {
+            "WarningPole": 50,
+            "ConeBucket": 90
+        },
+        "232.0": {
+            "WarningPole": 50,
+            "ConeBucket": 81
+        },
+        "243.0": {
+            "WarningPole": 60,
+            "ConeBucket": 2
+        },
+        "207.0": {
+            "WarningPole": 20,
+            "ConeBucket": 70
+        },
+        "190.0": {
+            "WarningPole": 35,
+            "ObstructionBW": 822,
+            "ConeBucket": 150
+        },
+        "198.0": {
+            "WarningPole": 41,
+            "ObstructionBW": 3
+        },
+        "191.0": {
+            "ObstructionBW": 638,
+            "ConeBucket": 110,
+            "WarningPole": 14
+        },
+        "205.0": {
+            "WarningPole": 40,
+            "ConeBucket": 120
+        },
+        "138.0": {
+            "WarningPole": 115,
+            "ConeBucket": 190
+        },
+        "239.0": {
+            "WarningPole": 40,
+            "ConeBucket": 302
+        },
+        "197.0": {
+            "WarningPole": 50,
+            "ObstructionBW": 4,
+            "ConeBucket": 1
+        },
+        "142.0": {
+            "WarningPole": 53,
+            "ObstructionBW": 27,
+            "ConeBucket": 313
+        },
+        "140.0": {
+            "WarningPole": 48,
+            "ConeBucket": 357
+        },
+        "141.0": {
+            "WarningPole": 75,
+            "ConeBucket": 252,
+            "ObstructionBW": 1
+        },
+        "260.0": {
+            "ConeBucket": 90,
+            "ObstructionBW": 1
+        },
+        "259.0": {
+            "ConeBucket": 40
+        },
+        "237.0": {
+            "WarningPole": 40,
+            "ConeBucket": 68
+        },
+        "233.0": {
+            "WarningPole": 20,
+            "ConeBucket": 98
+        },
+        "196.0": {
+            "WarningPole": 22,
+            "ObstructionBW": 13,
+            "ConeBucket": 29
+        },
+        "214.0": {
+            "WarningPole": 30,
+            "ObstructionBW": 2,
+            "ConeBucket": 2
+        },
+        "231.0": {
+            "WarningPole": 40,
+            "ConeBucket": 54
+        },
+        "204.0": {
+            "ConeBucket": 180,
+            "WarningPole": 30
+        },
+        "199.0": {
+            "ObstructionBW": 3,
+            "WarningPole": 20,
+            "ConeBucket": 125
+        },
+        "230.0": {
+            "ConeBucket": 28
+        },
+        "203.0": {
+            "WarningPole": 10,
+            "ConeBucket": 200
+        },
+        "272.0": {
+            "ObstructionBW": 3
+        },
+        "262.0": {
+            "ObstructionBW": 3
+        },
+        "271.0": {
+            "ObstructionBW": 3
+        },
+        "261.0": {
+            "ObstructionBW": 3
+        },
+        "273.0": {
+            "ObstructionBW": 3
+        },
+        "263.0": {
+            "ObstructionBW": 3
+        },
+        "206.0": {
+            "ConeBucket": 100,
+            "WarningPole": 20
+        },
+        "202.0": {
+            "ConeBucket": 100,
+            "WarningPole": 40
+        },
+        "236.0": {
+            "WarningPole": 20,
+            "ConeBucket": 66
+        },
+        "254.0": {
+            "ConeBucket": 291
+        },
+        "253.0": {
+            "ConeBucket": 373
+        },
+        "252.0": {
+            "ConeBucket": 243
+        },
+        "249.0": {
+            "ConeBucket": 80
+        },
+        "250.0": {
+            "ConeBucket": 172
+        },
+        "251.0": {
+            "ConeBucket": 196
+        },
+        "235.0": {
+            "ConeBucket": 56,
+            "WarningPole": 20
+        },
+        "234.0": {
+            "ConeBucket": 74,
+            "WarningPole": 10
+        },
+        "298.0": {
+            "ConeBucket": 9
+        },
+        "246.0": {
+            "ConeBucket": 3
+        },
+        "299.0": {
+            "ConeBucket": 6
+        },
+        "297.0": {
+            "ConeBucket": 20
+        },
+        "245.0": {
+            "ConeBucket": 4
+        },
+        "296.0": {
+            "ConeBucket": 28
+        },
+        "295.0": {
+            "ConeBucket": 47
+        },
+        "294.0": {
+            "ConeBucket": 23
+        },
+        "247.0": {
+            "ConeBucket": 2
+        },
+        "281.0": {
+            "ConeBucket": 55
+        },
+        "282.0": {
+            "ConeBucket": 45
+        },
+        "280.0": {
+            "ConeBucket": 50
+        },
+        "279.0": {
+            "ConeBucket": 45
+        },
+        "278.0": {
+            "ConeBucket": 85
+        },
+        "277.0": {
+            "ConeBucket": 35
+        },
+        "293.0": {
+            "ConeBucket": 30
+        },
+        "292.0": {
+            "ConeBucket": 23
+        },
+        "291.0": {
+            "ConeBucket": 8
+        },
+        "244.0": {
+            "ConeBucket": 5
+        },
+        "290.0": {
+            "ConeBucket": 21
+        },
+        "289.0": {
+            "ConeBucket": 32
+        },
+        "288.0": {
+            "ConeBucket": 12
+        },
+        "287.0": {
+            "ConeBucket": 29
+        },
+        "286.0": {
+            "ConeBucket": 23
+        },
+        "285.0": {
+            "ConeBucket": 4
+        },
+        "255.0": {
+            "ConeBucket": 175
+        },
+        "256.0": {
+            "ConeBucket": 100
+        }
+    },
+    "object_rel_ori_dynamic_object_type": {
+        "2.0": {
+            "Car": 360,
+            "EngineeringVehicle": 44,
+            "Bus": 8,
+            "Van": 26,
+            "Bicycle": 23,
+            "PickupTruck": 31,
+            "Truck": 15,
+            "MediumSizedCar": 45,
+            "SpecialShapedVehicle": 10
+        },
+        "16.0": {
+            "SpecialShapedVehicle": 7,
+            "Bicycle": 212,
+            "Car": 79,
+            "Van": 3,
+            "MediumSizedCar": 8,
+            "EngineeringVehicle": 13,
+            "PickupTruck": 1,
+            "Truck": 3,
+            "Bus": 1
+        },
+        "10.0": {
+            "EngineeringVehicle": 31,
+            "Bicycle": 39,
+            "Car": 107,
+            "MediumSizedCar": 6,
+            "PickupTruck": 1,
+            "Van": 2,
+            "SpecialShapedVehicle": 1,
+            "Truck": 10,
+            "Bus": 1
+        },
+        "8.0": {
+            "Bus": 5,
+            "EngineeringVehicle": 23,
+            "MediumSizedCar": 22,
+            "Truck": 1,
+            "Bicycle": 64,
+            "Car": 124,
+            "PickupTruck": 2,
+            "Van": 25,
+            "SpecialShapedVehicle": 13
+        },
+        "0.0": {
+            "Car": 4785,
+            "EngineeringVehicle": 726,
+            "Bus": 90,
+            "Truck": 160,
+            "Bicycle": 92,
+            "Van": 608,
+            "MediumSizedCar": 485,
+            "SpecialShapedVehicle": 170,
+            "PickupTruck": 216
+        },
+        "17.0": {
+            "SpecialShapedVehicle": 7,
+            "Bicycle": 136,
+            "Car": 94,
+            "Van": 3,
+            "EngineeringVehicle": 17,
+            "PickupTruck": 4,
+            "MediumSizedCar": 6,
+            "Truck": 3,
+            "Bus": 2
+        },
+        "6.0": {
+            "Bus": 11,
+            "Van": 18,
+            "Truck": 7,
+            "Car": 399,
+            "Bicycle": 115,
+            "SpecialShapedVehicle": 9,
+            "EngineeringVehicle": 60,
+            "MediumSizedCar": 42,
+            "PickupTruck": 18
+        },
+        "7.0": {
+            "Bus": 5,
+            "MediumSizedCar": 25,
+            "Truck": 10,
+            "Car": 228,
+            "Bicycle": 101,
+            "SpecialShapedVehicle": 3,
+            "PickupTruck": 10,
+            "EngineeringVehicle": 33,
+            "Van": 8
+        },
+        "9.0": {
+            "EngineeringVehicle": 21,
+            "Bicycle": 39,
+            "Car": 185,
+            "Van": 14,
+            "MediumSizedCar": 9,
+            "PickupTruck": 2,
+            "SpecialShapedVehicle": 1,
+            "Truck": 11,
+            "Bus": 2
+        },
+        "3.0": {
+            "EngineeringVehicle": 52,
+            "Bus": 9,
+            "Van": 36,
+            "Truck": 6,
+            "Car": 297,
+            "Bicycle": 126,
+            "MediumSizedCar": 21,
+            "PickupTruck": 18,
+            "SpecialShapedVehicle": 4
+        },
+        "1.0": {
+            "Car": 315,
+            "EngineeringVehicle": 59,
+            "Bus": 9,
+            "Van": 51,
+            "SpecialShapedVehicle": 12,
+            "MediumSizedCar": 51,
+            "Bicycle": 23,
+            "PickupTruck": 4,
+            "Truck": 6
+        },
+        "4.0": {
+            "MediumSizedCar": 53,
+            "Truck": 9,
+            "Car": 615,
+            "Van": 32,
+            "Bicycle": 205,
+            "SpecialShapedVehicle": 7,
+            "EngineeringVehicle": 107,
+            "PickupTruck": 58,
+            "Bus": 17
+        },
+        "5.0": {
+            "Van": 15,
+            "Car": 365,
+            "Bicycle": 207,
+            "SpecialShapedVehicle": 6,
+            "EngineeringVehicle": 67,
+            "MediumSizedCar": 32,
+            "PickupTruck": 31,
+            "Bus": 11,
+            "Truck": 10
+        },
+        "18.0": {
+            "Car": 116,
+            "Bicycle": 239,
+            "Van": 4,
+            "SpecialShapedVehicle": 3,
+            "EngineeringVehicle": 20,
+            "PickupTruck": 4,
+            "Truck": 9,
+            "MediumSizedCar": 3,
+            "Bus": 1
+        },
+        "40.0": {
+            "Bus": 1,
+            "Car": 2
+        },
+        "172.0": {
+            "Bicycle": 804
+        },
+        "103.0": {
+            "Bicycle": 460
+        },
+        "116.0": {
+            "Bicycle": 128
+        },
+        "94.0": {
+            "Bicycle": 922
+        },
+        "83.0": {
+            "Bicycle": 963
+        },
+        "95.0": {
+            "Bicycle": 745
+        },
+        "86.0": {
+            "Bicycle": 1254
+        },
+        "82.0": {
+            "Bicycle": 831
+        },
+        "87.0": {
+            "Bicycle": 1530
+        },
+        "136.0": {
+            "Bicycle": 34
+        },
+        "14.0": {
+            "Bicycle": 216,
+            "Car": 218,
+            "PickupTruck": 21,
+            "MediumSizedCar": 37,
+            "Van": 19,
+            "SpecialShapedVehicle": 10,
+            "EngineeringVehicle": 49,
+            "Truck": 16,
+            "Bus": 1
+        },
+        "174.0": {
+            "Bicycle": 443
+        },
+        "170.0": {
+            "Bicycle": 502
+        },
+        "177.0": {
+            "Bicycle": 647
+        },
+        "102.0": {
+            "Bicycle": 471
+        },
+        "98.0": {
+            "Bicycle": 1144
+        },
+        "175.0": {
+            "Bicycle": 479
+        },
+        "80.0": {
+            "Bicycle": 480
+        },
+        "81.0": {
+            "Bicycle": 628
+        },
+        "85.0": {
+            "Bicycle": 1111
+        },
+        "15.0": {
+            "Bicycle": 247,
+            "Car": 118,
+            "PickupTruck": 10,
+            "Van": 2,
+            "MediumSizedCar": 14,
+            "SpecialShapedVehicle": 2,
+            "EngineeringVehicle": 18,
+            "Truck": 3,
+            "Bus": 3
+        },
+        "179.0": {
+            "Bicycle": 931
+        },
+        "90.0": {
+            "Bicycle": 1713
+        },
+        "88.0": {
+            "Bicycle": 1669
+        },
+        "176.0": {
+            "Bicycle": 545
+        },
+        "92.0": {
+            "Bicycle": 1184
+        },
+        "96.0": {
+            "Bicycle": 1077
+        },
+        "78.0": {
+            "Bicycle": 574
+        },
+        "178.0": {
+            "Bicycle": 643
+        },
+        "34.0": {
+            "Bus": 3,
+            "EngineeringVehicle": 8,
+            "Car": 73,
+            "MediumSizedCar": 5,
+            "PickupTruck": 2,
+            "Van": 2,
+            "Truck": 1
+        },
+        "100.0": {
+            "Bicycle": 655
+        },
+        "112.0": {
+            "Bicycle": 114
+        },
+        "91.0": {
+            "Bicycle": 1353
+        },
+        "89.0": {
+            "Bicycle": 1761
+        },
+        "79.0": {
+            "Bicycle": 466
+        },
+        "99.0": {
+            "Bicycle": 800
+        },
+        "101.0": {
+            "Bicycle": 658
+        },
+        "84.0": {
+            "Bicycle": 1045
+        },
+        "180.0": {
+            "Bicycle": 950
+        },
+        "182.0": {
+            "Bicycle": 609
+        },
+        "173.0": {
+            "Bicycle": 512
+        },
+        "77.0": {
+            "Bicycle": 573
+        },
+        "97.0": {
+            "Bicycle": 1204
+        },
+        "93.0": {
+            "Bicycle": 813
+        },
+        "32.0": {
+            "Bus": 3,
+            "EngineeringVehicle": 30,
+            "PickupTruck": 2,
+            "Bicycle": 60,
+            "MediumSizedCar": 3,
+            "Car": 39,
+            "Van": 8,
+            "Truck": 2
+        },
+        "11.0": {
+            "Bicycle": 149,
+            "EngineeringVehicle": 31,
+            "PickupTruck": 15,
+            "Car": 110,
+            "MediumSizedCar": 13,
+            "Van": 17,
+            "Truck": 4,
+            "SpecialShapedVehicle": 3,
+            "Bus": 1
+        },
+        "19.0": {
+            "Bicycle": 638,
+            "Car": 51,
+            "Van": 5,
+            "EngineeringVehicle": 11,
+            "MediumSizedCar": 2,
+            "Bus": 1
+        },
+        "181.0": {
+            "Bicycle": 893
+        },
+        "183.0": {
+            "Bicycle": 672
+        },
+        "38.0": {
+            "Bus": 1,
+            "Car": 4,
+            "Van": 1
+        },
+        "115.0": {
+            "Bicycle": 94
+        },
+        "171.0": {
+            "Bicycle": 656
+        },
+        "13.0": {
+            "Car": 217,
+            "Bicycle": 198,
+            "PickupTruck": 20,
+            "EngineeringVehicle": 46,
+            "MediumSizedCar": 29,
+            "SpecialShapedVehicle": 9,
+            "Van": 17,
+            "Truck": 19,
+            "Bus": 9
+        },
+        "30.0": {
+            "Bus": 2,
+            "EngineeringVehicle": 7,
+            "PickupTruck": 2,
+            "Bicycle": 43,
+            "MediumSizedCar": 18,
+            "Car": 64,
+            "Van": 4,
+            "Truck": 2
+        },
+        "111.0": {
+            "Bicycle": 205
+        },
+        "20.0": {
+            "Bicycle": 981,
+            "Van": 9,
+            "Car": 56,
+            "EngineeringVehicle": 9,
+            "MediumSizedCar": 2,
+            "PickupTruck": 1,
+            "Truck": 2
+        },
+        "184.0": {
+            "Bicycle": 709
+        },
+        "76.0": {
+            "Bicycle": 516
+        },
+        "41.0": {
+            "Bus": 1
+        },
+        "35.0": {
+            "Bus": 4,
+            "EngineeringVehicle": 6,
+            "Car": 86,
+            "MediumSizedCar": 4,
+            "PickupTruck": 3,
+            "Van": 1,
+            "Truck": 1
+        },
+        "113.0": {
+            "Bicycle": 49
+        },
+        "12.0": {
+            "Car": 170,
+            "Bicycle": 223,
+            "PickupTruck": 17,
+            "EngineeringVehicle": 48,
+            "MediumSizedCar": 29,
+            "SpecialShapedVehicle": 8,
+            "Van": 26,
+            "Truck": 15,
+            "Bus": 3
+        },
+        "26.0": {
+            "Bus": 2,
+            "EngineeringVehicle": 6,
+            "Bicycle": 70,
+            "MediumSizedCar": 3,
+            "Car": 33,
+            "Van": 4,
+            "PickupTruck": 1,
+            "Truck": 1
+        },
+        "109.0": {
+            "Bicycle": 227
+        },
+        "21.0": {
+            "Bicycle": 983,
+            "PickupTruck": 2,
+            "Van": 9,
+            "Car": 37,
+            "EngineeringVehicle": 17,
+            "MediumSizedCar": 5
+        },
+        "105.0": {
+            "Bicycle": 282
+        },
+        "185.0": {
+            "Bicycle": 547
+        },
+        "74.0": {
+            "Bicycle": 335
+        },
+        "28.0": {
+            "Bus": 2,
+            "PickupTruck": 6,
+            "EngineeringVehicle": 16,
+            "Bicycle": 47,
+            "Car": 44,
+            "Van": 2,
+            "MediumSizedCar": 2
+        },
+        "110.0": {
+            "Bicycle": 246
+        },
+        "104.0": {
+            "Bicycle": 292
+        },
+        "75.0": {
+            "Bicycle": 373
+        },
+        "37.0": {
+            "Bus": 2,
+            "Car": 36,
+            "PickupTruck": 1,
+            "EngineeringVehicle": 1,
+            "Van": 1
+        },
+        "114.0": {
+            "Bicycle": 45
+        },
+        "131.0": {
+            "Bicycle": 35
+        },
+        "119.0": {
+            "Bicycle": 40
+        },
+        "29.0": {
+            "EngineeringVehicle": 20,
+            "PickupTruck": 7,
+            "MediumSizedCar": 6,
+            "Bicycle": 70,
+            "Car": 39,
+            "Van": 2,
+            "Truck": 2,
+            "Bus": 1
+        },
+        "24.0": {
+            "PickupTruck": 1,
+            "Bicycle": 143,
+            "EngineeringVehicle": 6,
+            "MediumSizedCar": 5,
+            "Car": 26,
+            "Van": 2,
+            "Truck": 1,
+            "Bus": 1
+        },
+        "22.0": {
+            "PickupTruck": 1,
+            "Bicycle": 504,
+            "Car": 53,
+            "Van": 1,
+            "EngineeringVehicle": 18,
+            "MediumSizedCar": 6,
+            "Truck": 1
+        },
+        "25.0": {
+            "PickupTruck": 1,
+            "Bicycle": 76,
+            "Car": 27,
+            "Van": 1,
+            "EngineeringVehicle": 12,
+            "MediumSizedCar": 3
+        },
+        "33.0": {
+            "EngineeringVehicle": 14,
+            "Car": 75,
+            "MediumSizedCar": 6,
+            "PickupTruck": 2,
+            "Bus": 2,
+            "Bicycle": 20,
+            "Van": 1,
+            "Truck": 4
+        },
+        "31.0": {
+            "PickupTruck": 1,
+            "EngineeringVehicle": 19,
+            "Bicycle": 47,
+            "MediumSizedCar": 13,
+            "Car": 41,
+            "Van": 4,
+            "Truck": 3,
+            "Bus": 2
+        },
+        "27.0": {
+            "PickupTruck": 1,
+            "MediumSizedCar": 8,
+            "Bicycle": 43,
+            "EngineeringVehicle": 11,
+            "Car": 50,
+            "Van": 2,
+            "Truck": 2,
+            "Bus": 1
+        },
+        "129.0": {
+            "Bicycle": 91
+        },
+        "118.0": {
+            "Bicycle": 107
+        },
+        "107.0": {
+            "Bicycle": 163
+        },
+        "73.0": {
+            "Bicycle": 161
+        },
+        "127.0": {
+            "Bicycle": 66
+        },
+        "23.0": {
+            "Bicycle": 341,
+            "Car": 50,
+            "Van": 3,
+            "PickupTruck": 1,
+            "EngineeringVehicle": 11
+        },
+        "168.0": {
+            "Bicycle": 125
+        },
+        "186.0": {
+            "Bicycle": 353
+        },
+        "188.0": {
+            "Bicycle": 173
+        },
+        "167.0": {
+            "Bicycle": 84
+        },
+        "72.0": {
+            "Bicycle": 114
+        },
+        "169.0": {
+            "Bicycle": 213
+        },
+        "108.0": {
+            "Bicycle": 137
+        },
+        "128.0": {
+            "Bicycle": 66
+        },
+        "106.0": {
+            "Bicycle": 109
+        },
+        "187.0": {
+            "Bicycle": 207
+        },
+        "36.0": {
+            "Car": 68,
+            "MediumSizedCar": 3,
+            "PickupTruck": 2,
+            "Bus": 2,
+            "EngineeringVehicle": 2,
+            "Van": 2,
+            "Truck": 1
+        },
+        "130.0": {
+            "Bicycle": 66
+        },
+        "117.0": {
+            "Bicycle": 66
+        },
+        "67.0": {
+            "Bicycle": 30
+        },
+        "120.0": {
+            "Bicycle": 11
+        },
+        "190.0": {
+            "Bicycle": 80
+        },
+        "161.0": {
+            "Bicycle": 54
+        },
+        "191.0": {
+            "Bicycle": 62
+        },
+        "193.0": {
+            "Bicycle": 45
+        },
+        "195.0": {
+            "Bicycle": 48
+        },
+        "65.0": {
+            "Bicycle": 27
+        },
+        "70.0": {
+            "Bicycle": 44
+        },
+        "162.0": {
+            "Bicycle": 42
+        },
+        "163.0": {
+            "Bicycle": 32
+        },
+        "189.0": {
+            "Bicycle": 107
+        },
+        "160.0": {
+            "Bicycle": 21
+        },
+        "192.0": {
+            "Bicycle": 85
+        },
+        "196.0": {
+            "Bicycle": 22
+        },
+        "71.0": {
+            "Bicycle": 57
+        },
+        "159.0": {
+            "Bicycle": 16
+        },
+        "63.0": {
+            "Bicycle": 16
+        },
+        "66.0": {
+            "Bicycle": 39
+        },
+        "68.0": {
+            "Bicycle": 43
+        },
+        "126.0": {
+            "Bicycle": 11
+        },
+        "166.0": {
+            "Bicycle": 43
+        },
+        "124.0": {
+            "Bicycle": 16
+        },
+        "165.0": {
+            "Bicycle": 42
+        },
+        "69.0": {
+            "Bicycle": 48
+        },
+        "123.0": {
+            "Bicycle": 11
+        },
+        "164.0": {
+            "Bicycle": 54
+        },
+        "121.0": {
+            "Bicycle": 16
+        },
+        "46.0": {
+            "MediumSizedCar": 30,
+            "Car": 190,
+            "EngineeringVehicle": 50,
+            "Van": 20,
+            "SpecialShapedVehicle": 20
+        },
+        "39.0": {
+            "Car": 7
+        },
+        "64.0": {
+            "Bicycle": 10
+        },
+        "197.0": {
+            "Bicycle": 10
+        },
+        "158.0": {
+            "Bicycle": 5
+        },
+        "194.0": {
+            "Bicycle": 15
+        },
+        "125.0": {
+            "Bicycle": 5
+        },
+        "122.0": {
+            "Bicycle": 5
+        }
+    },
+    "weather": {
+        "rain": 1960,
+        "clear_sky": 2090
+    },
+    "day_night": {
+        "night": 1960,
+        "day": 1770,
+        "dusk": 320
+    },
+    "map_type": {
+        "": 280,
+        "City": 1270,
+        "Highway": 2500
+    }
+}

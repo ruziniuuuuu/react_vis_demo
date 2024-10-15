@@ -1,0 +1,1964 @@
+{
+    "object_types": {
+        "Car": 7690,
+        "SpecialShapedVehicle": 242,
+        "EngineeringVehicle": 1433,
+        "Bus": 198,
+        "ObstructionBW": 33813,
+        "Van": 917,
+        "MediumSizedCar": 877,
+        "Truck": 247,
+        "BullBarrels": 2090,
+        "WarningPole": 20296,
+        "Bicycle": 2970,
+        "PickupTruck": 431,
+        "TriangleBrand": 800,
+        "ConeBucket": 44182
+    },
+    "object_ego_dis_object_type": {
+        "(0, 20)": {
+            "ObstructionBW": 13958,
+            "BullBarrels": 347,
+            "WarningPole": 7322,
+            "Bicycle": 1446,
+            "ConeBucket": 17234,
+            "Car": 1
+        },
+        "(20, 40)": {
+            "Car": 693,
+            "ObstructionBW": 6933,
+            "Van": 50,
+            "BullBarrels": 199,
+            "WarningPole": 5171,
+            "Bicycle": 695,
+            "TriangleBrand": 31,
+            "ConeBucket": 10121,
+            "MediumSizedCar": 80,
+            "EngineeringVehicle": 110,
+            "SpecialShapedVehicle": 10,
+            "PickupTruck": 40,
+            "Bus": 10
+        },
+        "(40, 60)": {
+            "ObstructionBW": 3028,
+            "BullBarrels": 294,
+            "WarningPole": 3532,
+            "Bicycle": 292,
+            "TriangleBrand": 138,
+            "ConeBucket": 4754,
+            "Car": 393,
+            "EngineeringVehicle": 30,
+            "PickupTruck": 10,
+            "SpecialShapedVehicle": 10,
+            "MediumSizedCar": 40,
+            "Van": 20
+        },
+        "(60, 80)": {
+            "ObstructionBW": 2481,
+            "BullBarrels": 302,
+            "Car": 1159,
+            "WarningPole": 2942,
+            "Bicycle": 242,
+            "PickupTruck": 60,
+            "TriangleBrand": 383,
+            "ConeBucket": 4527,
+            "EngineeringVehicle": 200,
+            "Van": 110,
+            "MediumSizedCar": 100,
+            "Truck": 30,
+            "Bus": 10,
+            "SpecialShapedVehicle": 20
+        },
+        "(80,)": {
+            "SpecialShapedVehicle": 202,
+            "EngineeringVehicle": 1093,
+            "Bus": 178,
+            "ObstructionBW": 7413,
+            "MediumSizedCar": 657,
+            "Truck": 217,
+            "BullBarrels": 948,
+            "Van": 737,
+            "Bicycle": 295,
+            "Car": 5444,
+            "PickupTruck": 321,
+            "WarningPole": 1329,
+            "TriangleBrand": 248,
+            "ConeBucket": 7546
+        }
+    },
+    "object_ego_dis_count": {
+        "(0, 20)": 40308,
+        "(20, 40)": 24143,
+        "(40, 60)": 12541,
+        "(60, 80)": 12566,
+        "(80,)": 26628
+    },
+    "object_ego_dis_object_volume": {
+        "(0, 20)": {
+            "1": 10468,
+            "0": 29839,
+            "5": 1
+        },
+        "(20, 40)": {
+            "15": 174,
+            "1": 5105,
+            "35": 11,
+            "0": 18045,
+            "33": 5,
+            "36": 41,
+            "34": 13,
+            "22": 56,
+            "43": 20,
+            "99": 30,
+            "55": 55,
+            "14": 55,
+            "53": 21,
+            "19": 20,
+            "92": 10,
+            "39": 10,
+            "23": 13,
+            "24": 6,
+            "18": 50,
+            "20": 72,
+            "10": 9,
+            "9": 41,
+            "120": 30,
+            "11": 20,
+            "16": 40,
+            "21": 33,
+            "13": 21,
+            "56": 25,
+            "17": 40,
+            "76": 2,
+            "74": 11,
+            "75": 3,
+            "73": 3,
+            "77": 1,
+            "28": 20,
+            "54": 6,
+            "57": 3,
+            "149": 10,
+            "5": 3,
+            "122": 10
+        },
+        "(40, 60)": {
+            "1": 2525,
+            "0": 9512,
+            "15": 110,
+            "99": 10,
+            "92": 10,
+            "23": 6,
+            "24": 4,
+            "11": 20,
+            "3": 1,
+            "14": 20,
+            "19": 62,
+            "53": 10,
+            "5": 13,
+            "55": 31,
+            "16": 50,
+            "39": 10,
+            "74": 20,
+            "9": 28,
+            "21": 20,
+            "56": 14,
+            "57": 5,
+            "17": 20,
+            "22": 10,
+            "34": 10,
+            "10": 2,
+            "20": 8,
+            "43": 10
+        },
+        "(60, 80)": {
+            "1": 2293,
+            "0": 8584,
+            "20": 136,
+            "15": 219,
+            "22": 90,
+            "16": 111,
+            "55": 80,
+            "99": 64,
+            "36": 25,
+            "9": 91,
+            "19": 121,
+            "18": 76,
+            "96": 3,
+            "100": 3,
+            "98": 4,
+            "97": 2,
+            "95": 4,
+            "34": 90,
+            "14": 94,
+            "28": 20,
+            "17": 56,
+            "43": 40,
+            "53": 60,
+            "21": 80,
+            "92": 20,
+            "37": 30,
+            "13": 20,
+            "5": 23,
+            "30": 4,
+            "29": 2,
+            "31": 4,
+            "149": 10,
+            "11": 10,
+            "120": 40,
+            "35": 15,
+            "39": 20,
+            "74": 10,
+            "75": 3,
+            "76": 3,
+            "77": 4,
+            "10": 2
+        },
+        "(80,)": {
+            "39": 186,
+            "122": 106,
+            "149": 168,
+            "1": 6514,
+            "45": 20,
+            "41": 13,
+            "40": 31,
+            "0": 11265,
+            "44": 13,
+            "38": 12,
+            "34": 537,
+            "16": 606,
+            "53": 227,
+            "28": 157,
+            "120": 230,
+            "15": 1357,
+            "56": 177,
+            "74": 155,
+            "19": 270,
+            "55": 407,
+            "14": 306,
+            "99": 279,
+            "21": 260,
+            "37": 177,
+            "17": 357,
+            "18": 437,
+            "20": 342,
+            "22": 532,
+            "9": 405,
+            "43": 242,
+            "5": 127,
+            "92": 187,
+            "24": 33,
+            "36": 110,
+            "23": 38,
+            "58": 3,
+            "59": 1,
+            "10": 17,
+            "13": 109,
+            "125": 10,
+            "128": 12,
+            "98": 2,
+            "96": 2,
+            "95": 1,
+            "97": 1,
+            "35": 29,
+            "31": 7,
+            "29": 4,
+            "57": 26,
+            "105": 7,
+            "101": 3,
+            "102": 1,
+            "104": 5,
+            "103": 3,
+            "11": 67,
+            "127": 8,
+            "124": 3,
+            "126": 4,
+            "123": 2,
+            "156": 2,
+            "151": 2,
+            "155": 1,
+            "153": 2,
+            "157": 3,
+            "77": 2,
+            "76": 1,
+            "12": 2,
+            "30": 3
+        }
+    },
+    "object_rel_ori_static_object_type": {
+        "180": {
+            "ObstructionBW": 822,
+            "WarningPole": 51,
+            "ConeBucket": 20
+        },
+        "9": {
+            "ObstructionBW": 752,
+            "ConeBucket": 365,
+            "WarningPole": 90,
+            "BullBarrels": 29
+        },
+        "8": {
+            "ObstructionBW": 1620,
+            "ConeBucket": 346,
+            "WarningPole": 51,
+            "BullBarrels": 36
+        },
+        "7": {
+            "ObstructionBW": 1524,
+            "BullBarrels": 26,
+            "ConeBucket": 355,
+            "WarningPole": 56
+        },
+        "6": {
+            "ObstructionBW": 1256,
+            "BullBarrels": 23,
+            "ConeBucket": 524,
+            "WarningPole": 60
+        },
+        "5": {
+            "ObstructionBW": 1556,
+            "BullBarrels": 30,
+            "ConeBucket": 586,
+            "WarningPole": 87
+        },
+        "4": {
+            "ObstructionBW": 1452,
+            "BullBarrels": 46,
+            "ConeBucket": 667,
+            "WarningPole": 67
+        },
+        "3": {
+            "ObstructionBW": 1441,
+            "BullBarrels": 23,
+            "WarningPole": 144,
+            "ConeBucket": 866
+        },
+        "2": {
+            "ObstructionBW": 1626,
+            "BullBarrels": 121,
+            "WarningPole": 60,
+            "ConeBucket": 1198
+        },
+        "1": {
+            "ObstructionBW": 2440,
+            "BullBarrels": 120,
+            "WarningPole": 101,
+            "ConeBucket": 1480
+        },
+        "0": {
+            "ObstructionBW": 3562,
+            "BullBarrels": 201,
+            "WarningPole": 1676,
+            "ConeBucket": 7890
+        },
+        "179": {
+            "ObstructionBW": 955,
+            "WarningPole": 56,
+            "ConeBucket": 16
+        },
+        "10": {
+            "ObstructionBW": 773,
+            "ConeBucket": 517,
+            "WarningPole": 75,
+            "BullBarrels": 1
+        },
+        "178": {
+            "ObstructionBW": 589,
+            "WarningPole": 36,
+            "ConeBucket": 13
+        },
+        "11": {
+            "ObstructionBW": 388,
+            "WarningPole": 86,
+            "BullBarrels": 3,
+            "ConeBucket": 540
+        },
+        "181": {
+            "ObstructionBW": 392,
+            "WarningPole": 34,
+            "ConeBucket": 8
+        },
+        "177": {
+            "ObstructionBW": 110,
+            "WarningPole": 62,
+            "ConeBucket": 27
+        },
+        "89": {
+            "ObstructionBW": 699,
+            "WarningPole": 102,
+            "BullBarrels": 210,
+            "ConeBucket": 233
+        },
+        "175": {
+            "ObstructionBW": 115,
+            "WarningPole": 63,
+            "ConeBucket": 3
+        },
+        "174": {
+            "ObstructionBW": 143,
+            "WarningPole": 42,
+            "ConeBucket": 1
+        },
+        "96": {
+            "ObstructionBW": 147,
+            "WarningPole": 89,
+            "BullBarrels": 14,
+            "ConeBucket": 200
+        },
+        "92": {
+            "ObstructionBW": 196,
+            "BullBarrels": 30,
+            "WarningPole": 65,
+            "ConeBucket": 499
+        },
+        "95": {
+            "ObstructionBW": 196,
+            "WarningPole": 70,
+            "ConeBucket": 466
+        },
+        "80": {
+            "WarningPole": 364,
+            "ObstructionBW": 46,
+            "ConeBucket": 322
+        },
+        "76": {
+            "WarningPole": 613,
+            "BullBarrels": 6,
+            "ObstructionBW": 15,
+            "ConeBucket": 192
+        },
+        "12": {
+            "ObstructionBW": 256,
+            "BullBarrels": 13,
+            "ConeBucket": 717,
+            "WarningPole": 130
+        },
+        "79": {
+            "WarningPole": 225,
+            "BullBarrels": 12,
+            "ConeBucket": 474,
+            "ObstructionBW": 32
+        },
+        "75": {
+            "WarningPole": 821,
+            "BullBarrels": 3,
+            "ConeBucket": 42,
+            "ObstructionBW": 7
+        },
+        "78": {
+            "WarningPole": 222,
+            "ObstructionBW": 33,
+            "ConeBucket": 134
+        },
+        "84": {
+            "WarningPole": 227,
+            "ObstructionBW": 284,
+            "ConeBucket": 33
+        },
+        "32": {
+            "WarningPole": 82,
+            "ConeBucket": 218,
+            "ObstructionBW": 7
+        },
+        "15": {
+            "WarningPole": 101,
+            "ObstructionBW": 365,
+            "ConeBucket": 565,
+            "BullBarrels": 17
+        },
+        "147": {
+            "WarningPole": 92,
+            "ConeBucket": 31
+        },
+        "110": {
+            "WarningPole": 79,
+            "ConeBucket": 16,
+            "ObstructionBW": 22
+        },
+        "123": {
+            "WarningPole": 56,
+            "ObstructionBW": 14
+        },
+        "52": {
+            "WarningPole": 73,
+            "ObstructionBW": 1,
+            "ConeBucket": 58
+        },
+        "183": {
+            "WarningPole": 54,
+            "ObstructionBW": 223,
+            "ConeBucket": 83
+        },
+        "99": {
+            "WarningPole": 118,
+            "ConeBucket": 289,
+            "ObstructionBW": 83
+        },
+        "166": {
+            "WarningPole": 51,
+            "ObstructionBW": 90,
+            "ConeBucket": 118
+        },
+        "82": {
+            "WarningPole": 193,
+            "ObstructionBW": 131,
+            "ConeBucket": 98
+        },
+        "44": {
+            "WarningPole": 61,
+            "ObstructionBW": 3,
+            "ConeBucket": 105
+        },
+        "40": {
+            "WarningPole": 114,
+            "ConeBucket": 135,
+            "ObstructionBW": 2
+        },
+        "131": {
+            "WarningPole": 49,
+            "ConeBucket": 35
+        },
+        "37": {
+            "WarningPole": 77,
+            "ConeBucket": 269
+        },
+        "30": {
+            "WarningPole": 89,
+            "ConeBucket": 352,
+            "ObstructionBW": 7
+        },
+        "43": {
+            "WarningPole": 63,
+            "ObstructionBW": 2,
+            "ConeBucket": 55
+        },
+        "64": {
+            "WarningPole": 107,
+            "ConeBucket": 61
+        },
+        "97": {
+            "WarningPole": 75,
+            "ObstructionBW": 221,
+            "ConeBucket": 66
+        },
+        "113": {
+            "WarningPole": 103,
+            "ConeBucket": 1,
+            "ObstructionBW": 16
+        },
+        "146": {
+            "WarningPole": 70,
+            "ConeBucket": 55
+        },
+        "33": {
+            "WarningPole": 66,
+            "ConeBucket": 262,
+            "ObstructionBW": 4
+        },
+        "155": {
+            "WarningPole": 51,
+            "ObstructionBW": 12,
+            "ConeBucket": 40
+        },
+        "51": {
+            "WarningPole": 83,
+            "ObstructionBW": 1,
+            "ConeBucket": 69
+        },
+        "163": {
+            "WarningPole": 62,
+            "ObstructionBW": 106,
+            "ConeBucket": 137
+        },
+        "94": {
+            "WarningPole": 76,
+            "ConeBucket": 694,
+            "ObstructionBW": 189
+        },
+        "115": {
+            "WarningPole": 122,
+            "ConeBucket": 1,
+            "ObstructionBW": 10
+        },
+        "167": {
+            "WarningPole": 64,
+            "ObstructionBW": 44,
+            "ConeBucket": 65
+        },
+        "73": {
+            "WarningPole": 427,
+            "ConeBucket": 6,
+            "ObstructionBW": 5
+        },
+        "159": {
+            "WarningPole": 61,
+            "ObstructionBW": 5,
+            "ConeBucket": 1
+        },
+        "150": {
+            "WarningPole": 77,
+            "ConeBucket": 106,
+            "ObstructionBW": 1
+        },
+        "38": {
+            "WarningPole": 68,
+            "ConeBucket": 271
+        },
+        "103": {
+            "WarningPole": 97,
+            "ObstructionBW": 55,
+            "ConeBucket": 122
+        },
+        "135": {
+            "WarningPole": 61,
+            "ConeBucket": 38
+        },
+        "16": {
+            "WarningPole": 101,
+            "ObstructionBW": 302,
+            "ConeBucket": 582,
+            "BullBarrels": 15
+        },
+        "130": {
+            "WarningPole": 74,
+            "ConeBucket": 30,
+            "ObstructionBW": 10
+        },
+        "90": {
+            "WarningPole": 307,
+            "TriangleBrand": 440,
+            "BullBarrels": 408,
+            "ObstructionBW": 518,
+            "ConeBucket": 251
+        },
+        "83": {
+            "WarningPole": 198,
+            "BullBarrels": 113,
+            "ObstructionBW": 249,
+            "ConeBucket": 65
+        },
+        "14": {
+            "ObstructionBW": 425,
+            "ConeBucket": 514,
+            "WarningPole": 66,
+            "BullBarrels": 22
+        },
+        "13": {
+            "ObstructionBW": 253,
+            "ConeBucket": 725,
+            "WarningPole": 90,
+            "BullBarrels": 8
+        },
+        "88": {
+            "BullBarrels": 210,
+            "WarningPole": 81,
+            "ObstructionBW": 262,
+            "ConeBucket": 246
+        },
+        "26": {
+            "ObstructionBW": 56,
+            "ConeBucket": 287,
+            "WarningPole": 90
+        },
+        "25": {
+            "ObstructionBW": 68,
+            "ConeBucket": 355,
+            "WarningPole": 86,
+            "BullBarrels": 1
+        },
+        "17": {
+            "ObstructionBW": 325,
+            "ConeBucket": 688,
+            "WarningPole": 70,
+            "BullBarrels": 7
+        },
+        "18": {
+            "ObstructionBW": 95,
+            "ConeBucket": 577,
+            "WarningPole": 81,
+            "BullBarrels": 5
+        },
+        "19": {
+            "ObstructionBW": 72,
+            "BullBarrels": 2,
+            "ConeBucket": 336,
+            "WarningPole": 63
+        },
+        "20": {
+            "ObstructionBW": 83,
+            "BullBarrels": 2,
+            "ConeBucket": 220,
+            "WarningPole": 76
+        },
+        "21": {
+            "ObstructionBW": 73,
+            "ConeBucket": 251,
+            "WarningPole": 69,
+            "BullBarrels": 1
+        },
+        "23": {
+            "ObstructionBW": 46,
+            "BullBarrels": 3,
+            "ConeBucket": 285,
+            "WarningPole": 104
+        },
+        "22": {
+            "ObstructionBW": 52,
+            "BullBarrels": 1,
+            "ConeBucket": 239,
+            "WarningPole": 91
+        },
+        "93": {
+            "ObstructionBW": 223,
+            "WarningPole": 90,
+            "ConeBucket": 382
+        },
+        "164": {
+            "ObstructionBW": 146,
+            "WarningPole": 47,
+            "ConeBucket": 109
+        },
+        "91": {
+            "ObstructionBW": 443,
+            "WarningPole": 100,
+            "BullBarrels": 220,
+            "ConeBucket": 283
+        },
+        "24": {
+            "ObstructionBW": 51,
+            "ConeBucket": 303,
+            "WarningPole": 140
+        },
+        "157": {
+            "ObstructionBW": 25,
+            "WarningPole": 63,
+            "ConeBucket": 140
+        },
+        "158": {
+            "ObstructionBW": 13,
+            "WarningPole": 67,
+            "ConeBucket": 96
+        },
+        "27": {
+            "ObstructionBW": 37,
+            "ConeBucket": 220,
+            "WarningPole": 89
+        },
+        "28": {
+            "ObstructionBW": 18,
+            "WarningPole": 52,
+            "ConeBucket": 90
+        },
+        "153": {
+            "ObstructionBW": 19,
+            "WarningPole": 47,
+            "ConeBucket": 46
+        },
+        "160": {
+            "ObstructionBW": 6,
+            "WarningPole": 38,
+            "ConeBucket": 8
+        },
+        "154": {
+            "ObstructionBW": 10,
+            "WarningPole": 55,
+            "ConeBucket": 68
+        },
+        "102": {
+            "ObstructionBW": 31,
+            "WarningPole": 82,
+            "ConeBucket": 277
+        },
+        "161": {
+            "ObstructionBW": 17,
+            "WarningPole": 49,
+            "ConeBucket": 33
+        },
+        "29": {
+            "ConeBucket": 256,
+            "WarningPole": 93,
+            "ObstructionBW": 8
+        },
+        "35": {
+            "ConeBucket": 258,
+            "WarningPole": 81,
+            "ObstructionBW": 1
+        },
+        "34": {
+            "ConeBucket": 261,
+            "WarningPole": 60,
+            "ObstructionBW": 3
+        },
+        "104": {
+            "ConeBucket": 76,
+            "WarningPole": 52,
+            "BullBarrels": 3,
+            "ObstructionBW": 93
+        },
+        "31": {
+            "ConeBucket": 218,
+            "WarningPole": 66,
+            "ObstructionBW": 5
+        },
+        "36": {
+            "ConeBucket": 213,
+            "WarningPole": 104
+        },
+        "41": {
+            "ConeBucket": 117,
+            "WarningPole": 75,
+            "ObstructionBW": 2
+        },
+        "106": {
+            "ConeBucket": 16,
+            "WarningPole": 59,
+            "ObstructionBW": 69
+        },
+        "39": {
+            "ConeBucket": 193,
+            "WarningPole": 86,
+            "ObstructionBW": 4
+        },
+        "105": {
+            "ConeBucket": 27,
+            "WarningPole": 106,
+            "BullBarrels": 6,
+            "ObstructionBW": 89
+        },
+        "184": {
+            "ObstructionBW": 335,
+            "WarningPole": 58,
+            "ConeBucket": 125
+        },
+        "171": {
+            "ObstructionBW": 238,
+            "WarningPole": 41
+        },
+        "173": {
+            "ObstructionBW": 159,
+            "WarningPole": 49,
+            "ConeBucket": 4
+        },
+        "169": {
+            "ObstructionBW": 35,
+            "WarningPole": 49,
+            "ConeBucket": 11
+        },
+        "182": {
+            "ObstructionBW": 402,
+            "WarningPole": 38,
+            "ConeBucket": 8
+        },
+        "176": {
+            "ObstructionBW": 134,
+            "WarningPole": 44,
+            "ConeBucket": 17
+        },
+        "168": {
+            "ObstructionBW": 35,
+            "WarningPole": 54,
+            "ConeBucket": 22
+        },
+        "170": {
+            "ObstructionBW": 147,
+            "WarningPole": 43,
+            "ConeBucket": 9
+        },
+        "165": {
+            "ObstructionBW": 169,
+            "WarningPole": 77,
+            "ConeBucket": 54
+        },
+        "172": {
+            "ObstructionBW": 201,
+            "WarningPole": 45,
+            "ConeBucket": 1
+        },
+        "46": {
+            "WarningPole": 124,
+            "ObstructionBW": 4,
+            "ConeBucket": 52
+        },
+        "185": {
+            "WarningPole": 51,
+            "ObstructionBW": 341,
+            "ConeBucket": 64
+        },
+        "77": {
+            "WarningPole": 216,
+            "ConeBucket": 375,
+            "ObstructionBW": 17
+        },
+        "85": {
+            "WarningPole": 110,
+            "ObstructionBW": 197,
+            "ConeBucket": 53
+        },
+        "86": {
+            "WarningPole": 89,
+            "ObstructionBW": 234,
+            "ConeBucket": 93
+        },
+        "112": {
+            "WarningPole": 102,
+            "BullBarrels": 70,
+            "ConeBucket": 17,
+            "ObstructionBW": 14
+        },
+        "98": {
+            "WarningPole": 93,
+            "ConeBucket": 238,
+            "ObstructionBW": 204
+        },
+        "129": {
+            "WarningPole": 66,
+            "ConeBucket": 24,
+            "ObstructionBW": 2
+        },
+        "87": {
+            "WarningPole": 106,
+            "ObstructionBW": 337,
+            "ConeBucket": 166,
+            "BullBarrels": 20
+        },
+        "120": {
+            "WarningPole": 58,
+            "ConeBucket": 29,
+            "ObstructionBW": 13
+        },
+        "133": {
+            "WarningPole": 49,
+            "ConeBucket": 72
+        },
+        "65": {
+            "WarningPole": 113,
+            "ConeBucket": 195
+        },
+        "56": {
+            "WarningPole": 151,
+            "ConeBucket": 64,
+            "ObstructionBW": 2
+        },
+        "58": {
+            "WarningPole": 104,
+            "ConeBucket": 49,
+            "ObstructionBW": 3
+        },
+        "100": {
+            "WarningPole": 52,
+            "ConeBucket": 262,
+            "ObstructionBW": 32
+        },
+        "72": {
+            "WarningPole": 105,
+            "ObstructionBW": 15,
+            "ConeBucket": 121
+        },
+        "134": {
+            "WarningPole": 65,
+            "ConeBucket": 67
+        },
+        "57": {
+            "WarningPole": 89,
+            "ConeBucket": 87,
+            "ObstructionBW": 3
+        },
+        "124": {
+            "WarningPole": 55,
+            "ObstructionBW": 3
+        },
+        "42": {
+            "WarningPole": 72,
+            "ObstructionBW": 3,
+            "ConeBucket": 52
+        },
+        "48": {
+            "WarningPole": 72,
+            "ObstructionBW": 1,
+            "ConeBucket": 1
+        },
+        "136": {
+            "WarningPole": 39,
+            "ConeBucket": 49
+        },
+        "107": {
+            "WarningPole": 71,
+            "ObstructionBW": 60,
+            "ConeBucket": 4
+        },
+        "128": {
+            "WarningPole": 75,
+            "ObstructionBW": 20,
+            "ConeBucket": 45
+        },
+        "119": {
+            "WarningPole": 56,
+            "ObstructionBW": 9
+        },
+        "132": {
+            "WarningPole": 75,
+            "ConeBucket": 57
+        },
+        "114": {
+            "WarningPole": 76,
+            "ConeBucket": 1,
+            "ObstructionBW": 11
+        },
+        "101": {
+            "WarningPole": 83,
+            "ObstructionBW": 44,
+            "ConeBucket": 257
+        },
+        "70": {
+            "WarningPole": 108,
+            "ObstructionBW": 6,
+            "ConeBucket": 164
+        },
+        "126": {
+            "WarningPole": 53,
+            "ConeBucket": 21
+        },
+        "47": {
+            "WarningPole": 114,
+            "ObstructionBW": 1
+        },
+        "156": {
+            "WarningPole": 89,
+            "ObstructionBW": 30,
+            "ConeBucket": 81
+        },
+        "111": {
+            "WarningPole": 64,
+            "ConeBucket": 23,
+            "ObstructionBW": 25
+        },
+        "71": {
+            "WarningPole": 126,
+            "ConeBucket": 245,
+            "ObstructionBW": 1
+        },
+        "125": {
+            "WarningPole": 57,
+            "ObstructionBW": 5
+        },
+        "81": {
+            "WarningPole": 94,
+            "ObstructionBW": 198,
+            "ConeBucket": 152,
+            "BullBarrels": 3
+        },
+        "162": {
+            "WarningPole": 65,
+            "ObstructionBW": 61,
+            "ConeBucket": 92
+        },
+        "45": {
+            "WarningPole": 55,
+            "ObstructionBW": 2,
+            "ConeBucket": 83
+        },
+        "186": {
+            "WarningPole": 56,
+            "ObstructionBW": 311,
+            "ConeBucket": 90
+        },
+        "127": {
+            "WarningPole": 41,
+            "ConeBucket": 25
+        },
+        "122": {
+            "WarningPole": 55,
+            "ObstructionBW": 3,
+            "ConeBucket": 10
+        },
+        "67": {
+            "WarningPole": 64,
+            "ConeBucket": 210
+        },
+        "55": {
+            "WarningPole": 62,
+            "ConeBucket": 41
+        },
+        "59": {
+            "WarningPole": 80,
+            "ObstructionBW": 2,
+            "ConeBucket": 50
+        },
+        "117": {
+            "WarningPole": 59,
+            "ConeBucket": 1,
+            "ObstructionBW": 7
+        },
+        "121": {
+            "WarningPole": 49,
+            "ObstructionBW": 10,
+            "ConeBucket": 17
+        },
+        "66": {
+            "WarningPole": 117,
+            "ConeBucket": 211
+        },
+        "74": {
+            "WarningPole": 718,
+            "ObstructionBW": 15,
+            "ConeBucket": 16
+        },
+        "116": {
+            "WarningPole": 43,
+            "ConeBucket": 9,
+            "ObstructionBW": 9
+        },
+        "137": {
+            "WarningPole": 72,
+            "ConeBucket": 39
+        },
+        "118": {
+            "WarningPole": 66,
+            "ObstructionBW": 3
+        },
+        "63": {
+            "WarningPole": 48,
+            "ConeBucket": 27
+        },
+        "54": {
+            "WarningPole": 140,
+            "ConeBucket": 33
+        },
+        "238": {
+            "WarningPole": 26,
+            "ConeBucket": 6
+        },
+        "224": {
+            "WarningPole": 27,
+            "ConeBucket": 97
+        },
+        "50": {
+            "WarningPole": 68,
+            "ObstructionBW": 1,
+            "ConeBucket": 78
+        },
+        "148": {
+            "WarningPole": 93,
+            "ConeBucket": 113
+        },
+        "192": {
+            "WarningPole": 36,
+            "ObstructionBW": 19,
+            "ConeBucket": 77
+        },
+        "209": {
+            "WarningPole": 45,
+            "ConeBucket": 152
+        },
+        "149": {
+            "WarningPole": 84,
+            "ConeBucket": 103
+        },
+        "194": {
+            "WarningPole": 37,
+            "ConeBucket": 234,
+            "ObstructionBW": 23
+        },
+        "62": {
+            "WarningPole": 91,
+            "ConeBucket": 32
+        },
+        "151": {
+            "WarningPole": 48,
+            "ConeBucket": 76,
+            "ObstructionBW": 5
+        },
+        "222": {
+            "ConeBucket": 141,
+            "WarningPole": 18
+        },
+        "223": {
+            "ConeBucket": 164
+        },
+        "221": {
+            "ConeBucket": 194,
+            "WarningPole": 37
+        },
+        "229": {
+            "ConeBucket": 41,
+            "WarningPole": 33
+        },
+        "228": {
+            "ConeBucket": 74,
+            "WarningPole": 35
+        },
+        "227": {
+            "ConeBucket": 54,
+            "WarningPole": 20
+        },
+        "220": {
+            "ConeBucket": 104,
+            "WarningPole": 10
+        },
+        "225": {
+            "ConeBucket": 90,
+            "WarningPole": 10
+        },
+        "226": {
+            "ConeBucket": 24
+        },
+        "270": {
+            "TriangleBrand": 360
+        },
+        "200": {
+            "ConeBucket": 54,
+            "WarningPole": 7
+        },
+        "212": {
+            "ConeBucket": 15,
+            "ObstructionBW": 3,
+            "WarningPole": 10
+        },
+        "208": {
+            "ConeBucket": 131,
+            "WarningPole": 19
+        },
+        "210": {
+            "ConeBucket": 34,
+            "WarningPole": 10
+        },
+        "211": {
+            "ConeBucket": 14,
+            "ObstructionBW": 2
+        },
+        "188": {
+            "ObstructionBW": 57,
+            "ConeBucket": 19,
+            "WarningPole": 19
+        },
+        "187": {
+            "ObstructionBW": 161,
+            "WarningPole": 28,
+            "ConeBucket": 70
+        },
+        "189": {
+            "ObstructionBW": 22,
+            "WarningPole": 26,
+            "ConeBucket": 30
+        },
+        "108": {
+            "BullBarrels": 6,
+            "ConeBucket": 15,
+            "WarningPole": 44,
+            "ObstructionBW": 26
+        },
+        "60": {
+            "ConeBucket": 62,
+            "WarningPole": 82
+        },
+        "61": {
+            "ConeBucket": 57,
+            "WarningPole": 88
+        },
+        "49": {
+            "ObstructionBW": 2,
+            "WarningPole": 79,
+            "ConeBucket": 74
+        },
+        "53": {
+            "ObstructionBW": 1,
+            "WarningPole": 122,
+            "ConeBucket": 28
+        },
+        "241": {
+            "ConeBucket": 202,
+            "WarningPole": 10
+        },
+        "242": {
+            "ConeBucket": 158,
+            "WarningPole": 33
+        },
+        "240": {
+            "ConeBucket": 169,
+            "WarningPole": 40
+        },
+        "217": {
+            "ConeBucket": 316,
+            "WarningPole": 30
+        },
+        "216": {
+            "ConeBucket": 164,
+            "WarningPole": 17
+        },
+        "218": {
+            "ConeBucket": 181,
+            "WarningPole": 9
+        },
+        "219": {
+            "ConeBucket": 122
+        },
+        "109": {
+            "ConeBucket": 38,
+            "WarningPole": 75,
+            "ObstructionBW": 23
+        },
+        "195": {
+            "ConeBucket": 230,
+            "ObstructionBW": 4,
+            "WarningPole": 1
+        },
+        "193": {
+            "ConeBucket": 79,
+            "WarningPole": 11,
+            "ObstructionBW": 16
+        },
+        "232": {
+            "WarningPole": 45,
+            "ConeBucket": 58
+        },
+        "243": {
+            "WarningPole": 51
+        },
+        "207": {
+            "WarningPole": 11,
+            "ConeBucket": 50
+        },
+        "201": {
+            "WarningPole": 45,
+            "ConeBucket": 50
+        },
+        "198": {
+            "WarningPole": 25,
+            "ObstructionBW": 3
+        },
+        "144": {
+            "WarningPole": 52,
+            "ConeBucket": 60
+        },
+        "197": {
+            "WarningPole": 44,
+            "ObstructionBW": 4
+        },
+        "69": {
+            "WarningPole": 87,
+            "ConeBucket": 17
+        },
+        "205": {
+            "WarningPole": 25,
+            "ConeBucket": 89
+        },
+        "138": {
+            "WarningPole": 91,
+            "ConeBucket": 91
+        },
+        "239": {
+            "WarningPole": 30,
+            "ConeBucket": 124
+        },
+        "142": {
+            "WarningPole": 48,
+            "ConeBucket": 104
+        },
+        "139": {
+            "WarningPole": 57,
+            "ConeBucket": 184
+        },
+        "68": {
+            "WarningPole": 68,
+            "ConeBucket": 30,
+            "ObstructionBW": 1
+        },
+        "143": {
+            "WarningPole": 54,
+            "ConeBucket": 94
+        },
+        "152": {
+            "WarningPole": 58,
+            "ConeBucket": 41,
+            "ObstructionBW": 12
+        },
+        "140": {
+            "WarningPole": 38,
+            "ConeBucket": 148
+        },
+        "141": {
+            "WarningPole": 50,
+            "ConeBucket": 67
+        },
+        "145": {
+            "WarningPole": 33,
+            "ConeBucket": 50
+        },
+        "260": {
+            "ConeBucket": 77
+        },
+        "259": {
+            "ConeBucket": 31
+        },
+        "237": {
+            "WarningPole": 37,
+            "ConeBucket": 44
+        },
+        "196": {
+            "WarningPole": 17,
+            "ObstructionBW": 7,
+            "ConeBucket": 5
+        },
+        "190": {
+            "WarningPole": 19,
+            "ObstructionBW": 40,
+            "ConeBucket": 55
+        },
+        "214": {
+            "WarningPole": 22,
+            "ObstructionBW": 2,
+            "ConeBucket": 2
+        },
+        "204": {
+            "ConeBucket": 147,
+            "WarningPole": 25
+        },
+        "191": {
+            "ObstructionBW": 12,
+            "ConeBucket": 58,
+            "WarningPole": 10
+        },
+        "199": {
+            "ObstructionBW": 3,
+            "WarningPole": 20,
+            "ConeBucket": 25
+        },
+        "230": {
+            "ConeBucket": 22
+        },
+        "231": {
+            "ConeBucket": 41,
+            "WarningPole": 29
+        },
+        "233": {
+            "WarningPole": 10,
+            "ConeBucket": 63
+        },
+        "203": {
+            "WarningPole": 8,
+            "ConeBucket": 153
+        },
+        "213": {
+            "ObstructionBW": 3,
+            "ConeBucket": 2,
+            "WarningPole": 8
+        },
+        "206": {
+            "ConeBucket": 80,
+            "WarningPole": 18
+        },
+        "202": {
+            "ConeBucket": 80,
+            "WarningPole": 31
+        },
+        "236": {
+            "WarningPole": 17,
+            "ConeBucket": 44
+        },
+        "249": {
+            "ConeBucket": 70
+        },
+        "250": {
+            "ConeBucket": 108
+        },
+        "251": {
+            "ConeBucket": 112
+        },
+        "254": {
+            "ConeBucket": 84
+        },
+        "253": {
+            "ConeBucket": 63
+        },
+        "235": {
+            "ConeBucket": 40,
+            "WarningPole": 20
+        },
+        "234": {
+            "ConeBucket": 51,
+            "WarningPole": 10
+        },
+        "296": {
+            "ConeBucket": 5
+        },
+        "295": {
+            "ConeBucket": 15
+        },
+        "294": {
+            "ConeBucket": 18
+        },
+        "245": {
+            "ConeBucket": 1
+        },
+        "278": {
+            "ConeBucket": 75
+        },
+        "279": {
+            "ConeBucket": 25
+        },
+        "277": {
+            "ConeBucket": 35
+        },
+        "293": {
+            "ConeBucket": 29
+        },
+        "292": {
+            "ConeBucket": 23
+        },
+        "291": {
+            "ConeBucket": 3
+        },
+        "244": {
+            "ConeBucket": 2
+        },
+        "289": {
+            "ConeBucket": 6
+        },
+        "290": {
+            "ConeBucket": 3
+        },
+        "288": {
+            "ConeBucket": 8
+        },
+        "287": {
+            "ConeBucket": 28
+        },
+        "286": {
+            "ConeBucket": 23
+        },
+        "285": {
+            "ConeBucket": 4
+        },
+        "255": {
+            "ConeBucket": 69
+        },
+        "256": {
+            "ConeBucket": 44
+        },
+        "252": {
+            "ConeBucket": 54
+        }
+    },
+    "object_rel_ori_dynamic_object_type": {
+        "2": {
+            "Car": 305,
+            "EngineeringVehicle": 34,
+            "Bus": 8,
+            "Van": 17,
+            "PickupTruck": 29,
+            "MediumSizedCar": 37,
+            "Truck": 14,
+            "SpecialShapedVehicle": 10
+        },
+        "16": {
+            "SpecialShapedVehicle": 5,
+            "Car": 41,
+            "Van": 2,
+            "EngineeringVehicle": 8,
+            "MediumSizedCar": 2,
+            "Truck": 1,
+            "Bus": 1
+        },
+        "10": {
+            "EngineeringVehicle": 31,
+            "Car": 82,
+            "MediumSizedCar": 6,
+            "Van": 1,
+            "SpecialShapedVehicle": 1,
+            "Truck": 10,
+            "Bus": 1
+        },
+        "8": {
+            "Bus": 5,
+            "EngineeringVehicle": 17,
+            "MediumSizedCar": 18,
+            "Truck": 1,
+            "Car": 53,
+            "PickupTruck": 1,
+            "Van": 23,
+            "SpecialShapedVehicle": 3
+        },
+        "0": {
+            "Car": 4499,
+            "Bus": 90,
+            "Truck": 142,
+            "Van": 588,
+            "EngineeringVehicle": 705,
+            "MediumSizedCar": 472,
+            "SpecialShapedVehicle": 165,
+            "PickupTruck": 214
+        },
+        "17": {
+            "SpecialShapedVehicle": 6,
+            "Car": 43,
+            "EngineeringVehicle": 12,
+            "MediumSizedCar": 4,
+            "PickupTruck": 3,
+            "Van": 2,
+            "Bus": 2,
+            "Truck": 1
+        },
+        "6": {
+            "Bus": 11,
+            "Van": 18,
+            "Truck": 7,
+            "Car": 304,
+            "SpecialShapedVehicle": 8,
+            "EngineeringVehicle": 59,
+            "MediumSizedCar": 41,
+            "PickupTruck": 18
+        },
+        "7": {
+            "Bus": 5,
+            "MediumSizedCar": 25,
+            "Truck": 9,
+            "Car": 205,
+            "SpecialShapedVehicle": 3,
+            "PickupTruck": 8,
+            "EngineeringVehicle": 29,
+            "Van": 8
+        },
+        "9": {
+            "EngineeringVehicle": 8,
+            "Car": 68,
+            "Van": 13,
+            "MediumSizedCar": 9,
+            "PickupTruck": 2,
+            "SpecialShapedVehicle": 1,
+            "Truck": 11,
+            "Bus": 2
+        },
+        "3": {
+            "EngineeringVehicle": 45,
+            "Bus": 9,
+            "Van": 32,
+            "Truck": 6,
+            "Car": 242,
+            "MediumSizedCar": 20,
+            "PickupTruck": 16,
+            "SpecialShapedVehicle": 3
+        },
+        "1": {
+            "Car": 277,
+            "Bus": 9,
+            "Van": 48,
+            "SpecialShapedVehicle": 12,
+            "MediumSizedCar": 47,
+            "PickupTruck": 4,
+            "EngineeringVehicle": 49,
+            "Truck": 5
+        },
+        "4": {
+            "MediumSizedCar": 53,
+            "Truck": 9,
+            "Car": 586,
+            "Van": 30,
+            "SpecialShapedVehicle": 7,
+            "EngineeringVehicle": 100,
+            "PickupTruck": 49,
+            "Bus": 17
+        },
+        "5": {
+            "Van": 15,
+            "Car": 217,
+            "SpecialShapedVehicle": 6,
+            "EngineeringVehicle": 61,
+            "MediumSizedCar": 32,
+            "PickupTruck": 14,
+            "Bus": 11,
+            "Truck": 9
+        },
+        "103": {
+            "Bicycle": 8
+        },
+        "26": {
+            "Bus": 2,
+            "EngineeringVehicle": 6,
+            "Van": 3,
+            "Car": 13,
+            "Truck": 1
+        },
+        "12": {
+            "Car": 96,
+            "PickupTruck": 8,
+            "EngineeringVehicle": 30,
+            "MediumSizedCar": 19,
+            "Van": 26,
+            "Truck": 2,
+            "Bus": 2,
+            "SpecialShapedVehicle": 3
+        },
+        "28": {
+            "Bus": 2,
+            "PickupTruck": 5,
+            "EngineeringVehicle": 15,
+            "Car": 20,
+            "Van": 2
+        },
+        "13": {
+            "Car": 109,
+            "PickupTruck": 11,
+            "EngineeringVehicle": 24,
+            "MediumSizedCar": 17,
+            "Van": 17,
+            "Truck": 5,
+            "Bus": 8,
+            "SpecialShapedVehicle": 3
+        },
+        "21": {
+            "PickupTruck": 1,
+            "Van": 9,
+            "EngineeringVehicle": 17,
+            "Car": 23,
+            "MediumSizedCar": 5
+        },
+        "98": {
+            "Bicycle": 77
+        },
+        "89": {
+            "Bicycle": 207
+        },
+        "85": {
+            "Bicycle": 142
+        },
+        "83": {
+            "Bicycle": 76
+        },
+        "86": {
+            "Bicycle": 104
+        },
+        "91": {
+            "Bicycle": 117
+        },
+        "177": {
+            "Bicycle": 30
+        },
+        "29": {
+            "EngineeringVehicle": 18,
+            "PickupTruck": 7,
+            "Car": 14,
+            "Van": 1,
+            "MediumSizedCar": 2,
+            "Bus": 1
+        },
+        "24": {
+            "PickupTruck": 1,
+            "EngineeringVehicle": 5,
+            "MediumSizedCar": 2,
+            "Van": 1,
+            "Car": 7,
+            "Truck": 1,
+            "Bus": 1
+        },
+        "100": {
+            "Bicycle": 13
+        },
+        "22": {
+            "PickupTruck": 1,
+            "Van": 1,
+            "EngineeringVehicle": 17,
+            "Car": 33,
+            "MediumSizedCar": 5,
+            "Truck": 1
+        },
+        "30": {
+            "EngineeringVehicle": 6,
+            "PickupTruck": 1,
+            "MediumSizedCar": 8,
+            "Car": 26,
+            "Van": 3
+        },
+        "25": {
+            "PickupTruck": 1,
+            "Van": 1,
+            "EngineeringVehicle": 11,
+            "Car": 9,
+            "MediumSizedCar": 1
+        },
+        "34": {
+            "EngineeringVehicle": 5,
+            "MediumSizedCar": 1,
+            "Bus": 2,
+            "Car": 4
+        },
+        "172": {
+            "Bicycle": 9
+        },
+        "35": {
+            "EngineeringVehicle": 2,
+            "Bus": 1
+        },
+        "184": {
+            "Bicycle": 7
+        },
+        "111": {
+            "Bicycle": 4
+        },
+        "27": {
+            "PickupTruck": 1,
+            "EngineeringVehicle": 11,
+            "Van": 1,
+            "Car": 18,
+            "MediumSizedCar": 2,
+            "Truck": 1,
+            "Bus": 1
+        },
+        "97": {
+            "Bicycle": 300
+        },
+        "88": {
+            "Bicycle": 88
+        },
+        "90": {
+            "Bicycle": 238
+        },
+        "96": {
+            "Bicycle": 323
+        },
+        "84": {
+            "Bicycle": 89
+        },
+        "82": {
+            "Bicycle": 169
+        },
+        "15": {
+            "PickupTruck": 8,
+            "Car": 64,
+            "Van": 2,
+            "MediumSizedCar": 9,
+            "EngineeringVehicle": 7,
+            "Bus": 3,
+            "Truck": 2
+        },
+        "94": {
+            "Bicycle": 189
+        },
+        "93": {
+            "Bicycle": 67
+        },
+        "81": {
+            "Bicycle": 99
+        },
+        "79": {
+            "Bicycle": 65
+        },
+        "14": {
+            "PickupTruck": 14,
+            "Car": 114,
+            "MediumSizedCar": 22,
+            "Van": 18,
+            "EngineeringVehicle": 30,
+            "SpecialShapedVehicle": 5,
+            "Truck": 3
+        },
+        "95": {
+            "Bicycle": 253
+        },
+        "80": {
+            "Bicycle": 50
+        },
+        "169": {
+            "Bicycle": 9
+        },
+        "87": {
+            "Bicycle": 102
+        },
+        "20": {
+            "Van": 8,
+            "Car": 35,
+            "EngineeringVehicle": 8,
+            "MediumSizedCar": 2,
+            "PickupTruck": 1,
+            "Truck": 2
+        },
+        "92": {
+            "Bicycle": 27
+        },
+        "110": {
+            "Bicycle": 16
+        },
+        "101": {
+            "Bicycle": 15
+        },
+        "32": {
+            "MediumSizedCar": 1,
+            "EngineeringVehicle": 2,
+            "Car": 1,
+            "Van": 1
+        },
+        "188": {
+            "Bicycle": 9
+        },
+        "109": {
+            "Bicycle": 19
+        },
+        "11": {
+            "EngineeringVehicle": 27,
+            "PickupTruck": 13,
+            "Car": 83,
+            "MediumSizedCar": 10,
+            "Van": 16,
+            "Bus": 1,
+            "SpecialShapedVehicle": 1
+        },
+        "19": {
+            "Car": 33,
+            "EngineeringVehicle": 11,
+            "MediumSizedCar": 1,
+            "Van": 4,
+            "Bus": 1
+        },
+        "18": {
+            "Car": 35,
+            "EngineeringVehicle": 11,
+            "Van": 3,
+            "Truck": 3,
+            "Bus": 1
+        },
+        "23": {
+            "Van": 3,
+            "Car": 30,
+            "EngineeringVehicle": 10
+        },
+        "187": {
+            "Bicycle": 17
+        },
+        "171": {
+            "Bicycle": 12
+        },
+        "37": {
+            "Bus": 1
+        },
+        "33": {
+            "EngineeringVehicle": 2,
+            "MediumSizedCar": 2,
+            "Car": 1
+        },
+        "99": {
+            "Bicycle": 10
+        },
+        "78": {
+            "Bicycle": 5
+        },
+        "31": {
+            "MediumSizedCar": 2,
+            "Truck": 1
+        },
+        "102": {
+            "Bicycle": 5
+        }
+    },
+    "weather": {
+        "rain": 1960,
+        "clear_sky": 2090
+    },
+    "day_night": {
+        "night": 1960,
+        "day": 1770,
+        "dusk": 320
+    },
+    "map_type": {
+        "": 280,
+        "City": 1270,
+        "Highway": 2500
+    }
+}
